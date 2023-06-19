@@ -1,0 +1,167 @@
+:root { 
+  --cultured-pearl: #f5f5f5;
+  --daisy-bush: #532c911a;
+  --primaryblack100: #000000;
+  --primarypink100: #ef6498;
+  --primarypink50: #ef6498;
+  --primarypink80: #ef6498;
+  --primarypurple100: #542d91;
+  --primarypurple50: #542d91;
+  --primarypurple80: #542d91;
+  --primarywhite100: #ffffff;
+  --secondarygrape-compote: #3d1152;
+  --secondaryquetzal-green: #005c5d;
+  --secondaryred-pear: #9f2842;
+  --secondaryvaliant-poppy: #d40054;
+  --textprimary: #312b43;
+  --textsecondary: #5a5568;
+  --texttertiary: #837f8e;
+  --violet-red: #ef64980d;
+  --white: #ffffff80;
+  --wisp-pink: #fef7fa;
+ 
+  --font-size-l: 18px;
+  --font-size-m: 16px;
+  --font-size-s: 14px;
+  --font-size-xl: 20px;
+  --font-size-xs: 12px;
+  --font-size-xxl: 24px;
+  --font-size-xxxl: 30px;
+ 
+  --font-family-bahij_thesansarabic-black: "Bahij TheSansArabic-Black", Helvetica;
+  --font-family-bahij_thesansarabic-bold: "Bahij TheSansArabic-Bold", Helvetica;
+  --font-family-bahij_thesansarabic-regular: "Bahij TheSansArabic-Regular", Helvetica;
+}
+.bahijthesansarabic-bold-blackcurrant-16px {
+  color: var(--textprimary);
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.bahijthesansarabic-bold-blackcurrant-14px {
+  color: var(--textprimary);
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.bahijthesansarabic-bold-violet-red-12px {
+  color: var(--primarypink100);
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.bahijthesansarabic-bold-gigas-12px {
+  color: var(--primarypurple100);
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.bahijthesansarabic-bold-scarpa-flow-14px {
+  color: var(--textsecondary);
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.bahijthesansarabic-bold-white-12px {
+  color: var(--primarywhite100);
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.bahijthesansarabic-bold-violet-red-16px {
+  color: var(--primarypink100);
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.bahijthesansarabic-bold-mamba-16px {
+  color: var(--texttertiary);
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.bahijthesansarabic-bold-white-24px {
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.bahijthesansarabic-bold-mamba-14px {
+  color: var(--texttertiary);
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.bahijthesansarabic-bold-white-14px {
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.bahijthesansarabic-bold-white-14px-2 {
+  color: var(--primarywhite100);
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.bahijthesansarabic-regular-normal-scarpa-flow-18px {
+  color: var(--textsecondary);
+  font-family: var(--font-family-bahij_thesansarabic-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.bahijthesansarabic-bold-gigas-14px {
+  color: var(--primarypurple100);
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.bahijthesansarabic-bold-violet-red-14px {
+  color: var(--primarypink100);
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.bahijthesansarabic-bold-mamba-12px {
+  color: var(--texttertiary);
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.bahijthesansarabic-bold-black-14px {
+  color: var(--primaryblack100);
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}

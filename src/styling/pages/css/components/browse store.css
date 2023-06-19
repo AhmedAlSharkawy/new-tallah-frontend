@@ -1,0 +1,404 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+  font-family: "Bahij TheSansArabic-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.animaapp.com/BahijTheSansArabic-Bold")
+    format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.group-95 {
+  background-image: url(../img/rectangle-14.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 500px;
+  min-width: 1360px;
+  position: relative;
+}
+
+.frame-84 {
+  align-items: center;
+  background-color: #ffffffeb;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 346px;
+  padding: 24px;
+  position: relative;
+  top: 103px;
+  width: 668px;
+}
+
+.button {
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgb(239, 100, 152) 0%,
+    rgb(84, 45, 145) 100%
+  );
+  border-radius: 24px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.text {
+  direction: rtl;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
+
+.shopping-bag-1 {
+  height: 16px;
+  min-width: 16px;
+  position: relative;
+}
+
+.logo {
+  height: 96px;
+  min-width: 75.6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.layer-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-height: 96px;
+  padding: 0px 0px;
+  width: 76px;
+}
+
+.flex-row {
+  align-items: flex-end;
+  display: flex;
+  gap: 1px;
+  height: 17px;
+  margin-left: 3.88px;
+  min-width: 71px;
+}
+
+.flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 1px;
+  height: 15px;
+  min-width: 11px;
+}
+
+.vector-2 {
+  height: 6px;
+  margin-top: 1.65px;
+  width: 4px;
+}
+
+.vector-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-height: 15px;
+  width: 6px;
+}
+
+.vector {
+  height: 8px;
+  width: 6px;
+}
+
+.vector-1 {
+  height: 5px;
+  margin-left: 1.14px;
+  width: 4px;
+}
+
+.flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-height: 17px;
+  width: 59px;
+}
+
+.flex-row-2 {
+  align-items: center;
+  display: flex;
+  height: 10px;
+  min-width: 59px;
+}
+
+.vector-3 {
+  align-self: flex-start;
+  height: 8px;
+  margin-top: 0;
+  width: 3px;
+}
+
+.vector-5 {
+  height: 6px;
+  margin-bottom: 0.09px;
+  margin-left: 2px;
+  width: 4px;
+}
+
+.vector-container-3 {
+  align-self: flex-end;
+  height: 6px;
+  margin-bottom: 0.03px;
+  margin-left: 1px;
+  position: relative;
+  width: 10px;
+}
+
+.vector-16 {
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.vector-17 {
+  height: 4px;
+  left: 5px;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.vector-container-2 {
+  align-self: flex-end;
+  height: 8px;
+  margin-left: 2px;
+  position: relative;
+  width: 14px;
+}
+
+.vector-12 {
+  height: 7px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 5px;
+}
+
+.vector-9 {
+  height: 1px;
+  left: 5px;
+  position: absolute;
+  top: 6px;
+  width: 2px;
+}
+
+.vector-14 {
+  height: 1px;
+  left: 9px;
+  position: absolute;
+  top: 6px;
+  width: 2px;
+}
+
+.vector-13 {
+  height: 1px;
+  left: 7px;
+  position: absolute;
+  top: 6px;
+  width: 2px;
+}
+
+.vector-15 {
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  top: 0;
+  width: 4px;
+}
+
+.vector-6 {
+  align-self: flex-start;
+  height: 8px;
+  margin-left: 1px;
+  width: 1px;
+}
+
+.vector-container-5 {
+  align-self: flex-end;
+  height: 8px;
+  margin-bottom: 0;
+  position: relative;
+  width: 14px;
+}
+
+.vector-8 {
+  height: 1px;
+  left: 3px;
+  position: absolute;
+  top: 6px;
+  width: 2px;
+}
+
+.vector-10 {
+  height: 4px;
+  left: 7px;
+  position: absolute;
+  top: 2px;
+  width: 6px;
+}
+
+.vector-7 {
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 3px;
+}
+
+.vector-11 {
+  height: 6px;
+  left: 12px;
+  position: absolute;
+  top: 0;
+  width: 2px;
+}
+
+.vector-4 {
+  height: 6px;
+  margin-bottom: 0.21px;
+  margin-left: 1px;
+  width: 1px;
+}
+
+.vector-container-4 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 2.16px;
+  min-width: 56px;
+}
+
+.vector-20 {
+  height: 5px;
+  margin-left: 9px;
+  width: 4px;
+}
+
+.vector-19 {
+  height: 5px;
+  margin-left: 10px;
+  width: 2px;
+}
+
+.vector-21 {
+  height: 5px;
+  margin-left: 10px;
+  width: 4px;
+}
+
+.vector-18 {
+  height: 5px;
+  width: 4px;
+}
+
+.group-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-height: 78px;
+  width: 76px;
+}
+
+.clip-path-group {
+  height: 7px;
+  margin-left: 4.14px;
+  width: 8px;
+}
+
+.clip-path-group-container {
+  height: 69px;
+  position: relative;
+  width: 76px;
+}
+
+.clip-path-group-2 {
+  height: 66px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 76px;
+}
+
+.clip-path-group-1 {
+  height: 4px;
+  left: 50px;
+  position: absolute;
+  top: 65px;
+  width: 4px;
+}
+
+.clip-path-group-3 {
+  height: 10px;
+  left: 44px;
+  position: absolute;
+  top: 17px;
+  width: 17px;
+}
+
+.frame-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.group-93 {
+  height: 80px;
+  margin-right: -2px;
+  min-width: 544px;
+  position: relative;
+}
+
+.home-logged-in .text-7 {
+  direction: rtl;
+  letter-spacing: 0;
+}
+
+.text-12 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    180deg,
+    rgb(239, 100, 152) 0%,
+    rgb(84, 45, 145) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  left: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  text-fill-color: transparent;
+  top: 0;
+  width: 542px;
+}
+

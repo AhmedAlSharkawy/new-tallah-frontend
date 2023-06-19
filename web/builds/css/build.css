@@ -1,0 +1,81 @@
+@import "../styling/pages/css/styleguide.css";
+@import "../styling/pages/css/globals.css";
+@import "../styling/pages/css/home.css";
+@font-face {
+  font-family: "Bahij TheSansArabic-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.animaapp.com/BahijTheSansArabic-Bold") format("truetype");
+}
+.footer {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  gap: 31px;
+  height: auto;
+  justify-content: flex-start;
+  margin-top: 73px;
+  min-height: 492px;
+  width: 1360px;
+}
+.frame-container-3 {
+  align-items: center;
+  background-color: var(--wisp-pink);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  min-height: 440px;
+  padding: 60px 0;
+  width: 1360px;
+}
+.frame-94 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  width: fit-content;
+}
+.frame-93 {
+  align-items: flex-start;
+  display: flex;
+  gap: 604px;
+  position: relative;
+  width: fit-content;
+}
+.frame-5 {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  justify-content: flex-end;
+  position: relative;
+  width: fit-content;
+}
+.frame-91 {
+  align-items: center;
+  background-color: var(--primarywhite100);
+  border-radius: 32px;
+  display: flex;
+  height: 39px;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 8px 24px 8px 0px;
+  position: relative;
+  width: 437px;
+}
+.frame-27 {
+  align-items: center;
+  background: linear-gradient(180deg, #ef6498 0%, #542d91 100%);
+  border-radius: 24px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: -8px;
+  margin-top: -8px;
+  padding: 8px 24px;
+  position: relative;
+  width: fit-content;
+}

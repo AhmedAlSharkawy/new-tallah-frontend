@@ -1,0 +1,134 @@
+.women-cafe {
+    @womenCafeSectionHeight: 724px;
+
+    // card variables
+    @cardHeight: ~'calc((@{womenCafeSectionHeight} / 2) - @{cardGap})';
+    @imgWidthLg: 60%;
+    @imgWidthSm: 36%;
+    @imageContainerWidth: 68%;
+    
+    // side container variables
+    @scrollableItemsWidth: 32%;
+    @scrollCardImgWidth: 36%;
+    @scrollContainerGap: 8px;
+    @scrollCardTextWidth: ~'calc(100% - @{scrollCardImgWidth})';
+    @borderRadius: 9px;
+
+    @cardGap: 12px;
+
+    .cardImg {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        &_overlay {
+            .overlay(@halfOverlay);
+        }
+    }
+    gap: @cardGap;
+
+    &-slide-container {
+        display: flex;
+        gap: @cardGap;
+        height: @womenCafeSectionHeight;
+
+        &__img-container {
+            display: flex;
+            width: @imageContainerWidth;
+            flex-wrap: wrap;
+            gap: ~'calc(@{cardGap} * 2)';
+        }
+
+        &__side-cards-container {
+            position: relative;
+            width: @scrollableItemsWidth;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            border-radius: @borderRadius;
+            overflow-y: auto;
+            gap: ~'calc(@{cardGap} * 2)';
+        }
+
+        &__side-img {
+            width: @scrollCardImgWidth;
+            height: ~'calc(@{scrollCardImgWidth} * 0.75)';
+            .cardImg();
+        }
+    }
+
+    &-card {
+        width: @imgWidthSm;
+        height: @cardHeight;
+        border-radius: 9px;
+        background: transparent linear-gradient(180deg, #FFFFFF00 0%, #FFFFFFBC 76%, #FFFFFFE6 100%) 0% 0% no-repeat padding-box;
+        position: relative;
+
+        &:nth-child(1), &:nth-child(4) {  /* or 4n+1 */
+            background: green;
+            width: @imgWidthLg;
+        }
+
+        &__img-wrapper {
+            .cardImg();
+        }
+
+        &__wrapper {
+            position: absolute;
+            z-index: 99;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 16px;
+
+            &-title {
+                .card-title();
+                .text-line-2();
+            }
+        }
+    }
+
+    &-side-card {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 112px;
+        gap: @cardGap;
+
+        &__img-wrapper {
+            width: 35%;
+            height: 100%;
+            position: relative;
+            border-radius: @borderRadius;
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: @borderRadius;
+            }
+
+            &_overlay {
+                .overlay(@halfOverlay);
+                border-radius: @borderRadius;
+            }
+        }
+
+        &__wrapper {
+            width: 65%;
+            padding: 20px 0;
+        }
+    }
+}

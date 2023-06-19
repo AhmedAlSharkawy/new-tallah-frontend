@@ -1,0 +1,804 @@
+/* screen - home-logged-in */
+
+.home-logged-in {
+  align-items: center;
+  background-color: var(--primarywhite100);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 3585px;
+  padding: 24px 0;
+  width: 1440px;
+}
+
+.home-logged-in .frame-container-1 {
+  align-items: center;
+  display: flex;
+  min-width: 1244px;
+}
+
+.home-logged-in .button {
+  align-items: center;
+  background: linear-gradient(180deg, rgb(239, 100, 152) 0%, rgb(84, 45, 145) 100%);
+  border-radius: 24px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .button-1 {
+  background-color: var(--violet-red);
+  gap: 8px;
+  padding: 8px 24px;
+}
+
+.home-logged-in .group-10 {
+  background-color: var(--violet-red);
+  border-radius: 12px;
+  height: 32px;
+  min-width: 32px;
+  position: relative;
+}
+
+.home-logged-in .icon-instagram {
+  height: 24px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 24px;
+}
+
+.home-logged-in .icon-twitter {
+  height: 24px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 24px;
+}
+
+.home-logged-in .facebook {
+  height: 24px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 24px;
+}
+
+.home-logged-in .group-106 {
+  height: 40px;
+  min-width: 1234px;
+  position: relative;
+}
+
+.home-logged-in .frame-46 {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  justify-content: flex-end;
+  left: 406px;
+  position: absolute;
+  top: 8px;
+  width: 828px;
+}
+
+.home-logged-in .text-32 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(239, 100, 152) 0%, rgb(84, 45, 145) 100%);
+  background-clip: text;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  text-fill-color: transparent;
+  width: fit-content;
+}
+
+.home-logged-in .frame-161 {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 334px;
+}
+
+.home-logged-in .group-81 {
+  height: 32px;
+  min-width: 31px;
+  position: relative;
+}
+
+.home-logged-in .number {
+  height: 20px;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.home-logged-in .group-127 {
+  border: 2px solid;
+  border-color: var(--wisp-pink);
+  border-radius: 12px;
+  height: 40px;
+  min-width: 40px;
+  position: relative;
+}
+
+.home-logged-in .icon-user {
+  height: 24px;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  width: 24px;
+}
+
+.home-logged-in .layer-1-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-height: 96px;
+  padding: 0 0.0px;
+  width: 76px;
+}
+
+.home-logged-in .group-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-height: 78px;
+  width: 76px;
+}
+
+.home-logged-in .vector-container-1 {
+  align-self: flex-end;
+  height: 8px;
+  position: relative;
+  width: 14px;
+}
+
+.home-logged-in .vector-container-2 {
+  align-self: flex-end;
+  height: 8px;
+  margin-left: 2px;
+  position: relative;
+  width: 14px;
+}
+
+.home-logged-in .vector-container-3 {
+  align-self: flex-end;
+  height: 6px;
+  margin-bottom: 0.03px;
+  margin-left: 1px;
+  position: relative;
+  width: 10px;
+}
+
+.home-logged-in .vector-container-4 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 2.16px;
+  min-width: 56px;
+}
+
+.home-logged-in .frame-container-2 {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  height: 808px;
+  margin-top: 32px;
+  min-width: 1360px;
+}
+
+.home-logged-in .frame {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .frame-121 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 322px;
+}
+
+.home-logged-in .button-2 {
+  gap: 4px;
+}
+
+.home-logged-in .group-82 {
+  height: 23px;
+  margin-right: -2.00px;
+  min-width: 59px;
+  position: relative;
+}
+
+.home-logged-in .arrow-up-left {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  width: 16px;
+}
+
+.home-logged-in .text-282 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(239, 100, 152) 0%, rgb(84, 45, 145) 100%);
+  background-clip: text;
+  left: 20px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  text-fill-color: transparent;
+  top: 0;
+}
+
+.home-logged-in .product-title {
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.home-logged-in .text-1 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(239, 100, 152) 0%, rgb(84, 45, 145) 100%);
+  background-clip: text;
+  line-height: 38px;
+  margin-top: -1.00px;
+  position: relative;
+  text-fill-color: transparent;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.home-logged-in .group-63-1 {
+  height: 16px;
+  margin-left: -8px;
+  min-width: 26.82px;
+  position: relative;
+}
+
+.home-logged-in .product {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .frame-28 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 120px;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .frame-105 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .maybelline-lifter-lip-gloss-008-stone {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: right;
+  width: 186px;
+}
+
+.home-logged-in .frame-98 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 186px;
+}
+
+.home-logged-in .price {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  opacity: 0.7;
+  position: relative;
+  text-align: right;
+  text-decoration: line-through;
+  width: fit-content;
+}
+
+.home-logged-in .price-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .group-77 {
+  background-image: url(../img/rectangle-2@2x.png);
+  background-size: 100% 100%;
+  height: 120px;
+  min-width: 120px;
+  position: relative;
+}
+
+.home-logged-in .frame-container {
+  align-items: center;
+  display: flex;
+  gap: 46px;
+  height: 52px;
+  left: 0;
+  min-width: 112px;
+  position: absolute;
+  top: 8px;
+}
+
+.home-logged-in .text-28 {
+  line-height: 19px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.home-logged-in .favorite {
+  align-items: center;
+  background-color: var(--cultured-pearl);
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+  height: 24px;
+  justify-content: center;
+  padding: 4px;
+  position: relative;
+  width: 24px;
+}
+
+.home-logged-in .cart-button {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  height: 24px;
+  justify-content: flex-end;
+  left: 8px;
+  position: absolute;
+  top: 88px;
+  width: 104px;
+}
+
+.home-logged-in .frame-109 {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.home-logged-in .product-1 {
+  align-items: center;
+  gap: 16px;
+}
+
+.home-logged-in .group-77-1 {
+  background-image: url(../img/rectangle-2-1@2x.png);
+}
+
+.home-logged-in .product-2 {
+  align-items: center;
+  gap: 16px;
+}
+
+.home-logged-in .group-77-2 {
+  background-image: url(../img/rectangle-2-2@2x.png);
+}
+
+.home-logged-in .product-3 {
+  align-items: center;
+  gap: 16px;
+}
+
+.home-logged-in .group-77-3 {
+  background-image: url(../img/rectangle-2-3@2x.png);
+}
+
+.home-logged-in .product-4 {
+  align-items: center;
+  gap: 16px;
+}
+
+.home-logged-in .group-77-4 {
+  background-image: url(../img/rectangle-2-4@2x.png);
+}
+
+.home-logged-in .frame-97 {
+  align-items: flex-start;
+  align-self: flex-end;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .blog-card-1 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 462px;
+  position: relative;
+  width: 1014px;
+}
+
+.home-logged-in .rectangle-1-3 {
+  height: 400px;
+  min-width: 1014px;
+}
+
+.home-logged-in .frame-2 {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.home-logged-in .frame-69 {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .text-2 {
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .text-3 {
+  align-self: stretch;
+  line-height: normal;
+  position: relative;
+}
+
+.home-logged-in .frame-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .rectangle-1 {
+  align-self: stretch;
+  height: 180px;
+  min-width: 322px;
+  position: relative;
+}
+
+.home-logged-in .rectangle-1-1 {
+  height: 180px;
+  min-width: 322px;
+  object-fit: cover;
+}
+
+.home-logged-in .frame-103 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 73px;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .frame-102 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .rectangle-1-2 {
+  height: 180px;
+  min-width: 322px;
+  object-fit: cover;
+}
+
+.home-logged-in .frame-105-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 73px;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .group-95 {
+  background-image: url(../img/rectangle-14.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 500px;
+  min-width: 1360px;
+  position: relative;
+}
+
+.home-logged-in .frame-84 {
+  align-items: center;
+  background-color: #ffffffeb;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 346px;
+  padding: 24px;
+  position: relative;
+  top: 103px;
+  width: 668px;
+}
+
+.home-logged-in .layer-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-height: 96px;
+  padding: 0.0px 0.0px;
+  width: 76px;
+}
+
+.home-logged-in .vector-container-5 {
+  align-self: flex-end;
+  height: 8px;
+  margin-bottom: 0;
+  position: relative;
+  width: 14px;
+}
+
+.home-logged-in .frame-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .group-93 {
+  height: 80px;
+  margin-right: -2.00px;
+  min-width: 544px;
+  position: relative;
+}
+
+.home-logged-in .text-288 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(239, 100, 152) 0%, rgb(84, 45, 145) 100%);
+  background-clip: text;
+  color: transparent;
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-xxxl);
+  font-weight: 700;
+  left: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  text-fill-color: transparent;
+  top: 0;
+  width: 542px;
+}
+
+.home-logged-in .shopping-bag-1 {
+  height: 16px;
+  min-width: 16px;
+  position: relative;
+}
+
+.home-logged-in .brands {
+  height: 96px;
+  min-width: 1362px;
+  position: relative;
+}
+
+.home-logged-in .frame-104 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 64px;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .frame-63 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .frame-4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .group {
+  background-color: var(--violet-red);
+  border-radius: 207px;
+  height: 207px;
+  min-width: 207px;
+  position: relative;
+}
+
+.home-logged-in .text-2-1 {
+  direction: rtl;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.home-logged-in .group-75 {
+  background: linear-gradient(180deg, rgb(239, 100, 152) 0%, rgb(84, 45, 145) 100%);
+  border-radius: 207px;
+  height: 207px;
+  min-width: 207px;
+  position: relative;
+}
+
+.home-logged-in .vector-22 {
+  height: 88px;
+  left: 66px;
+  position: absolute;
+  top: 60px;
+  width: 75px;
+}
+
+.home-logged-in .vector-container-6 {
+  align-self: flex-end;
+  height: 8px;
+  margin-bottom: 0;
+  margin-left: 2px;
+  position: relative;
+  width: 14px;
+}
+
+.home-logged-in .icon-youtube {
+  height: 24px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 24px;
+}
+
+.home-logged-in .icon-instagram-1 {
+  height: 24px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 24px;
+}
+
+.home-logged-in .icon-linkedin {
+  height: 24px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 24px;
+}
+
+.home-logged-in .icon-twitter-1 {
+  height: 24px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 24px;
+}
+
+.home-logged-in .icon-facebook {
+  height: 24px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 24px;
+}
+
+.home-logged-in .text-301 {
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.home-logged-in .icon-paper_plane {
+  height: 16px;
+  min-width: 16px;
+  position: relative;
+}
+
+.home-logged-in .frame-5 {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  justify-content: flex-end;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .text-300 {
+  line-height: normal;
+  min-height: 20px;
+  min-width: 228px;
+  text-align: center;
+}
+
+.home-logged-in .button-3 {
+  align-items: center;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .group-77-5 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 120px;
+  min-width: 120px;
+  position: relative;
+}
+
+.home-logged-in .product-5 {
+  display: flex;
+  position: relative;
+  width: fit-content;
+}
+
+.home-logged-in .rectangle-1-4 {
+  align-self: stretch;
+  position: relative;
+}
+
+.home-logged-in .text-4 {
+  direction: rtl;
+  letter-spacing: 0;
+}

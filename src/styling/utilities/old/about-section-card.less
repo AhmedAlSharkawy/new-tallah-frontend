@@ -1,0 +1,42 @@
+.about-section-card {
+    @imgSize: 45%;
+    @textSize: 100% - @imgSize;
+    @gap: 50px;
+    
+    &__container {
+        position: relative;
+        display: flex;
+        gap: @gap;
+    }
+
+    &__text {
+        width: ~'calc(@{textSize} - @{gap})';
+        padding: 0;
+
+        &-title {
+            font-size: 32px;
+            color: @solid-color;
+            margin-bottom: 24px;
+            line-height: 1.6;
+        }
+
+        &-content {
+            font-size: @font-size-xsm;
+            font-weight: bold;
+            line-height: 2;
+            color: @text-color;
+        }
+    }
+
+    &__img {
+        width: @imgSize;
+        height: 500px;
+        padding: 0;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+    }
+}

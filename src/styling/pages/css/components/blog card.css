@@ -1,0 +1,65 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+  font-family: "Bahij TheSansArabic-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.animaapp.com/BahijTheSansArabic-Bold")
+    format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.blog-card {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 268px;
+  position: relative;
+  width: 322px;
+}
+
+.frame-2-1 {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.frame-69 {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.blog-category .text-7 {
+  direction: rtl;
+  letter-spacing: 0;
+}
+
+.text-2 {
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.text-3 {
+  align-self: stretch;
+  line-height: normal;
+  position: relative;
+}
+
+.rectangle-1 {
+  align-self: stretch;
+  height: 180px;
+  min-width: 322px;
+  position: relative;
+}
+
