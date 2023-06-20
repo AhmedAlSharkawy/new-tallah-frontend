@@ -1046,6 +1046,10 @@
   position: relative;
 }
 
+.product {
+  text-decoration: none;
+}
+
 .product-6 {
   align-items: center;
   gap: 16px;
