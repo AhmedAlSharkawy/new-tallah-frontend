@@ -6,9 +6,8 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  height: 4147px;
   padding: 24px 0;
-  width: 1440px;
+  width: 100%;
 }
 
 .article .navbar {
@@ -23,7 +22,6 @@
 .article .frame-container-1 {
   align-items: center;
   display: flex;
-  min-width: 1244px;
 }
 
 .article .button {
@@ -219,9 +217,7 @@
 .article .frame-container-2 {
   align-items: flex-start;
   display: flex;
-  gap: 24px;
   margin-top: 32px;
-  min-width: 1360px;
 }
 
 .article .frame-1 {
@@ -230,7 +226,7 @@
   flex-direction: column;
   gap: 16px;
   position: relative;
-  width: fit-content;
+  width: 100%;
 }
 
 .article .frame-121 {
@@ -445,13 +441,18 @@
   flex-direction: column;
   gap: 64px;
   position: relative;
-  width: fit-content;
+  width: 100%;
 }
 
 .article .frame-1-1 {
+  display: flex;
   align-items: center;
   flex-direction: column;
   gap: 48px;
+}
+
+.article__paragraph {
+  width: 100%;
 }
 
 .article .frame-1-2 {
@@ -496,7 +497,7 @@
   background-image: url(../img/rectangle-27.png);
   background-size: 100% 100%;
   height: 500px;
-  min-width: 1014px;
+  width: 100%;
   position: relative;
 }
 
@@ -538,7 +539,7 @@
   background-image: url(../img/rectangle-27-1.png);
   background-size: 100% 100%;
   height: 300px;
-  min-width: 784px;
+  width: 100%;
   position: relative;
 }
 
@@ -555,9 +556,20 @@
   display: flex;
   gap: 25px;
   position: relative;
-  width: fit-content;
+  width: 100%;
 }
 
+.article .frame-142 .form__input {
+  width: 50%;
+}
+
+.article .frame-142 .form__textarea {
+  width: 100%;
+}
+
+.article__paragraph__container {
+  margin-bottom: 64px;
+}
 .article .frame-14 {
   align-items: center;
   background-color: var(--wisp-pink);
@@ -691,6 +703,7 @@
 
 .article .frame-1-4 {
   align-items: center;
+  justify-content: flex-end;
   gap: 8px;
 }
 
@@ -1038,7 +1051,7 @@
   gap: 48px;
   margin-top: 82px;
   position: relative;
-  width: fit-content;
+  width: 100%;
 }
 
 .article .frame-133 {
@@ -1186,7 +1199,6 @@
 .article .frame-3 {
   align-items: flex-start;
   display: flex;
-  gap: 24px;
   justify-content: flex-end;
   position: relative;
   width: fit-content;
@@ -1231,6 +1243,12 @@
 }
 
 .article .frame-1-5 {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.frame-1-5-content {
   display: flex;
   position: relative;
   width: fit-content;
@@ -1289,7 +1307,7 @@
   justify-content: center;
   padding: 8px;
   position: relative;
-  width: fit-content;
+  width: 100%;
 }
 .article .ellipse-2 {
   background-color: var(--primarypurple100);

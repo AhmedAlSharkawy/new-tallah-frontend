@@ -784,10 +784,13 @@ AOS.init({
 
 // sticky navbar
 window.onscroll = function () {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 90) {
-        document.getElementById("header").className = "header header-sticky";
-    } else {
-        document.getElementById("header").className = "header";
+    var navbar = document.getElementById("header");
+    if(typeof(navbar) != 'undefined' && navbar != null) {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 90) {
+            navbar.className = "header header--sticky";
+        } else {
+            navbar.className = "header";
+        }
     }
 };
 
@@ -811,7 +814,7 @@ var mainSlider = new Swiper(".mainSlider", {
 var articleSlider = new Swiper(".articleSlider", {
     loop: false,
     speed: 1500,
-    slidesPerView: 1,
+    slidesPerView: 4,
     navigation: {
         nextEl: ".article-next",
         prevEl: ".article-prev",
@@ -820,6 +823,29 @@ var articleSlider = new Swiper(".articleSlider", {
         el: ".article-pagination",
         clickable: true,
     },
+    breakpoints: {
+        0: {
+            spaceBetween: 8,
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+        },
+        500: {
+            spaceBetween: 0,
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+        },
+        992: {
+            spaceBetween: 12,
+            slidesPerView: 4,
+            slidesPerGroup: 4,
+
+        },
+        1199: {
+            spaceBetween: 24,
+            slidesPerView: 4,
+            slidesPerGroup: 4,
+        },
+    }
 });
 
 // women-cafe
