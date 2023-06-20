@@ -1113,7 +1113,7 @@
   flex-direction: column;
   gap: 16px;
   position: relative;
-  width: 100%;
+  flex: 1;
 }
 
 .navbar__upper {
