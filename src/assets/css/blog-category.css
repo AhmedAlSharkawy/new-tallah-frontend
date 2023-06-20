@@ -621,7 +621,7 @@
 }
 
 .blog-category .frame-382 {
-  align-items: flex-start;
+  align-items: flex-end;
   display: flex;
   flex-direction: column;
   gap: 40px;
