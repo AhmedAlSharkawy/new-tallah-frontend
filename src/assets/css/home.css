@@ -558,7 +558,7 @@
   background-position: 50% 50%;
   background-size: cover;
   height: 500px;
-  min-width: 1360px;
+  width: 100%;
   position: relative;
 }
 

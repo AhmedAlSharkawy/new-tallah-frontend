@@ -643,6 +643,10 @@
   position: relative;
 }
 
+.blog-card__cta {
+  text-decoration: none;
+}
+
 .blog-card__img {
   align-self: stretch;
   height: 180px;
@@ -744,6 +748,7 @@
   gap: 24px;
   position: relative;
   width: fit-content;
+  text-decoration: none;
 }
 
 .start-over__cards-wrapper {
@@ -761,6 +766,7 @@
   gap: 8px;
   position: relative;
   width: fit-content;
+  text-decoration: none;
 }
 
 .start-over__card:hover .start-over__card-img__container {
@@ -1276,7 +1282,7 @@
   justify-content: flex-start;
   margin-top: 73px;
   min-height: 492px;
-  width: 1360px;
+  width: 100%;
 }
 
 .footer__container {
@@ -1288,7 +1294,7 @@
   gap: 28px;
   min-height: 440px;
   padding: 60px 0;
-  width: 1360px;
+  width: 100%;
 }
 
 .footer__logo__container {
