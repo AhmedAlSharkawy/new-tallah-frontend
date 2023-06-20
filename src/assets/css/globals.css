@@ -641,13 +641,12 @@
   gap: 16px;
   height: 268px;
   position: relative;
-  width: 322px;
 }
 
 .blog-card__img {
   align-self: stretch;
   height: 180px;
-  min-width: 322px;
+  width: 100%;
   position: relative;
 }
 

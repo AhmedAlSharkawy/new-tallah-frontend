@@ -485,7 +485,6 @@
 .home-logged-in .frame-1 {
   align-items: flex-start;
   display: flex;
-  gap: 24px;
   position: relative;
   width: fit-content;
 }
