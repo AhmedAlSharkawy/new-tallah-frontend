@@ -6,15 +6,13 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  height: 3585px;
   padding: 24px 0;
-  width: 1440px;
+  flex: 1;
 }
 
 .home-logged-in .frame-container-1 {
   align-items: center;
   display: flex;
-  min-width: 1244px;
 }
 
 .home-logged-in .button {
@@ -194,9 +192,7 @@
   align-items: flex-start;
   display: flex;
   gap: 24px;
-  height: 808px;
   margin-top: 32px;
-  min-width: 1360px;
 }
 
 .home-logged-in .frame {
