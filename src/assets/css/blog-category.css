@@ -6,9 +6,8 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  height: 4527px;
   padding: 24px 0;
-  width: 1440px;
+  flex: 1;
 }
 
 .blog-category .frame-container-1 {
@@ -18,7 +17,11 @@
 }
 
 .blog-category .button-1 {
-  background: linear-gradient(180deg, rgb(239, 100, 152) 0%, rgb(84, 45, 145) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(239, 100, 152) 0%,
+    rgb(84, 45, 145) 100%
+  );
 }
 
 .blog-category .button-2 {
@@ -77,10 +80,14 @@
 .blog-category .text-34 {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(180deg, rgb(239, 100, 152) 0%, rgb(84, 45, 145) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(239, 100, 152) 0%,
+    rgb(84, 45, 145) 100%
+  );
   background-clip: text;
   line-height: normal;
-  margin-top: -1.00px;
+  margin-top: -1px;
   position: relative;
   text-align: left;
   text-fill-color: transparent;
@@ -181,14 +188,13 @@
 }
 
 .blog-category .frame-container-2 {
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-end;
   align-self: flex-end;
+  justify-content: flex-start;
   display: flex;
-  gap: 88px;
-  height: 145px;
-  margin-right: 38px;
+  width: 100%;
   margin-top: 48px;
-  min-width: 1131px;
 }
 
 .blog-category .frame {
@@ -203,7 +209,11 @@
 .blog-category .text-323 {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(180deg, rgb(239, 100, 152) 0%, rgb(84, 45, 145) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(239, 100, 152) 0%,
+    rgb(84, 45, 145) 100%
+  );
   background-clip: text;
   line-height: 38px;
   position: relative;
@@ -235,7 +245,7 @@
 
 .blog-category .text-1 {
   line-height: normal;
-  margin-top: -1.00px;
+  margin-top: -1px;
   position: relative;
   width: fit-content;
 }
@@ -254,7 +264,6 @@
   display: flex;
   flex-direction: column;
   gap: 64px;
-  margin-left: 2.0px;
   margin-top: 48px;
   position: relative;
   width: fit-content;
@@ -273,7 +282,7 @@
   background-image: url(../img/rectangle-27-2.svg);
   background-size: 100% 100%;
   height: 300px;
-  min-width: 1360px;
+  width: 100%;
   position: relative;
 }
 
@@ -318,12 +327,16 @@
 .blog-category .text_label {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(180deg, rgb(239, 100, 152) 0%, rgb(84, 45, 145) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(239, 100, 152) 0%,
+    rgb(84, 45, 145) 100%
+  );
   background-clip: text;
   direction: rtl;
   letter-spacing: 0;
   line-height: 38px;
-  margin-top: -1.00px;
+  margin-top: -1px;
   position: relative;
   text-fill-color: transparent;
   white-space: nowrap;
@@ -333,7 +346,6 @@
 .blog-category .frame-3 {
   align-items: flex-start;
   display: flex;
-  gap: 24px;
   position: relative;
   width: fit-content;
 }
@@ -406,7 +418,7 @@
 
 .blog-category .group-82 {
   height: 23px;
-  margin-right: -2.00px;
+  margin-right: -2px;
   min-width: 59px;
   position: relative;
 }
@@ -422,7 +434,11 @@
 .blog-category .text-3 {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(180deg, rgb(239, 100, 152) 0%, rgb(84, 45, 145) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(239, 100, 152) 0%,
+    rgb(84, 45, 145) 100%
+  );
   background-clip: text;
   left: 20px;
   line-height: normal;
@@ -457,7 +473,7 @@
   height: 120px;
   justify-content: center;
   position: relative;
-  width: fit-content;
+  width: 100%;
 }
 
 .blog-category .frame-105 {
@@ -472,7 +488,7 @@
 .blog-category .maybelline-lifter-lip-gloss-008-stone {
   letter-spacing: 0;
   line-height: normal;
-  margin-top: -1.00px;
+  margin-top: -1px;
   position: relative;
   text-align: right;
   width: 186px;
@@ -489,7 +505,7 @@
 .blog-category .price {
   letter-spacing: 0;
   line-height: normal;
-  margin-top: -1.00px;
+  margin-top: -1px;
   opacity: 0.7;
   position: relative;
   text-align: right;
@@ -519,7 +535,7 @@
 
 .blog-category .text-3-1 {
   line-height: 19px;
-  margin-top: -1.00px;
+  margin-top: -1px;
   white-space: nowrap;
 }
 
@@ -556,7 +572,7 @@
 .blog-category .price-1 {
   letter-spacing: 0;
   line-height: normal;
-  margin-top: -1.00px;
+  margin-top: -1px;
   position: relative;
   width: fit-content;
 }
@@ -610,7 +626,7 @@
   flex-direction: column;
   gap: 40px;
   position: relative;
-  width: fit-content;
+  width: 100%;
 }
 
 .blog-category .frame-1-2 {
@@ -695,7 +711,7 @@
   flex-direction: column;
   gap: 1px;
   min-height: 96px;
-  padding: 0.0px 0;
+  padding: 0px 0;
   width: 76px;
 }
 
@@ -750,7 +766,7 @@
 
 .blog-category .text-379 {
   line-height: normal;
-  margin-top: -1.00px;
+  margin-top: -1px;
   position: relative;
   text-align: center;
   width: fit-content;
