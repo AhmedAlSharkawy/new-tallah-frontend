@@ -6,7 +6,7 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  padding: 24px 0;
+  padding-bottom: 24px;
   flex: 1;
   width: 100%;
 }
@@ -404,7 +404,7 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  width: 322px;
+  width: 100%;
 }
 
 .blog-category .button {
@@ -492,7 +492,7 @@
   margin-top: -1px;
   position: relative;
   text-align: right;
-  width: 186px;
+  width: 100%;
 }
 
 .blog-category .frame-98 {
@@ -500,7 +500,7 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  width: 186px;
+  width: 100%;
 }
 
 .blog-category .price {
@@ -823,4 +823,12 @@
   letter-spacing: 0;
   position: relative;
   width: fit-content;
+}
+
+.blogsSlider__pagination {
+  position: absolute;
+  bottom: 16px;
+  z-index: 10;
+  opacity: 1;
+  width: 100%;
 }

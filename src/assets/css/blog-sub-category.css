@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   height: 3652px;
-  padding: 24px 0;
+  padding-bottom: 24px;
   width: 1440px;
 }
 
@@ -414,7 +414,7 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  width: 322px;
+  width: 100%;
 }
 
 .blog-sub-category .button-2 {
@@ -494,7 +494,7 @@
   margin-top: -1.00px;
   position: relative;
   text-align: right;
-  width: 186px;
+  width: 100%;
 }
 
 .blog-sub-category .frame-98 {
@@ -502,7 +502,7 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  width: 186px;
+  width: 100%;
 }
 
 .blog-sub-category .price {

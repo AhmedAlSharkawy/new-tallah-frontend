@@ -19,23 +19,23 @@ window.onscroll = function () {
 
 
 // hero slider
-var mainSlider = new Swiper(".mainSlider", {
+var mainSlider = new Swiper(".blogsSlider", {
     spaceBetween: 0,
-    loop: true,
     effect: "fade",
-    speed: 100,
+    loop: true,
+    slidesPerView: 1,
     autoplay: {
         delay: 3000,
     },
     pagination: {
-        el: ".slider-pagination",
+        el: ".blogs-pagination",
         clickable: true,
     },
 });
 
 // article
 var articleSlider = new Swiper(".articleSlider", {
-    loop: false,
+    loop: true,
     speed: 1500,
     slidesPerView: 4,
     navigation: {
@@ -71,19 +71,34 @@ var articleSlider = new Swiper(".articleSlider", {
     }
 });
 
-// women-cafe
-var womenCafeSlider = new Swiper(".women-cafeSlider", {
+// brands-cafe
+var brandsSlider = new Swiper(".brandsSlider", {
     loop: false,
     speed: 1500,
-    slidesPerView: 1,
-    navigation: {
-        nextEl: ".women-cafe-next",
-        prevEl: ".women-cafe-prev",
-    },
-    pagination: {
-        el: ".women-cafe-pagination",
-        clickable: true,
-    },
+    slidesPerView: 6,
+    breakpoints: {
+        0: {
+            spaceBetween: 0,
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+        },
+        500: {
+            spaceBetween: 0,
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+        },
+        992: {
+            spaceBetween: 12,
+            slidesPerView: 4,
+            slidesPerGroup: 4,
+
+        },
+        1199: {
+            spaceBetween: 24,
+            slidesPerView: 6,
+            slidesPerGroup: 6,
+        },
+    }
 });
 
 // sections
