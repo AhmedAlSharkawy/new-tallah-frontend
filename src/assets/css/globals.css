@@ -710,15 +710,18 @@ button {
   width: fit-content;
 }
 
-.start-over__title {
+.start-over__title,
+.section-container-title {
   display: flex;
   position: relative;
   width: fit-content;
-  align-items: flex-start;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
-.start-over__title-text {
+.start-over__title-text,
+.section-container-title-text {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
   background: linear-gradient(
@@ -739,7 +742,8 @@ button {
   font-weight: 700;
 }
 
-.start-over__title-img {
+.start-over__title-img,
+.section-container-title-img {
   height: 16px;
   margin-left: -8px;
   min-width: 26.82px;
@@ -775,7 +779,8 @@ button {
   text-decoration: none;
 }
 
-.start-over__card:hover .start-over__card-img__container, .nav__social:hover {
+.start-over__card:hover .start-over__card-img__container,
+.nav__social:hover {
   background: linear-gradient(
     180deg,
     rgb(239, 100, 152) 0%,
@@ -784,8 +789,10 @@ button {
   cursor: pointer;
 }
 
-.start-over__card:hover .start-over__card-img, .nav__social:hover img {
-  filter: invert(100) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(200%) contrast(104%);
+.start-over__card:hover .start-over__card-img,
+.nav__social:hover img {
+  filter: invert(100) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(200%)
+    contrast(104%);
 }
 
 .start-over__card-img__container {
@@ -1239,7 +1246,8 @@ button {
   font-style: normal;
   font-weight: 700;
 }
-.navbar__upper__frame-search {
+.navbar__upper__frame-search,
+.input__frame-search {
   align-items: center;
   background-color: var(--wisp-pink);
   border-radius: 24px;
@@ -1249,7 +1257,12 @@ button {
   overflow: hidden;
   padding: 8px 16px;
   position: relative;
+}
+.navbar__upper__frame-search {
   width: 335px;
+}
+.input__frame-search {
+  width: 100%;
 }
 .navbar__upper__frame-right {
   align-items: center;
@@ -1681,4 +1694,123 @@ button {
 
 .blog__nav-cta.active .text-1 {
   color: white;
+}
+
+.brands-col {
+  margin: 64px 0;
+}
+
+.brands-col .section-container-title {
+  margin-bottom: 16px;
+}
+
+.brandsSlider__img {
+  width: 100%;
+}
+
+/* Custom inputs */
+.custom-input-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.custom-input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.custom-input__checkmark {
+  position: relative;
+  background-color: #fef7fa;
+  border: 1px solid;
+  border-color: #f6e9ef;
+  border-radius: 24px;
+  height: 24px;
+  width: 24px;
+}
+.custom-input__checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.custom-input:checked ~ .custom-input__checkmark:after {
+  display: block;
+}
+.custom-input-container .custom-input__checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #212529;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.custom-icon-checkbox {
+  align-items: center;
+  background-color: var(--cultured-pearl);
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+  height: 24px;
+  width: 24px;
+  justify-content: center;
+  padding: 4px;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.custom-icon-checkbox__icon {
+  height: 15px;
+  min-width: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.custom-icon-checkbox__icon__checkmark {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.custom-icon-checkbox__icon__checkmark:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.custom-input:checked ~ .custom-icon-checkbox__icon__checkmark:after {
+  background-color: #542d91;
+}
+
+.custom-input:checked ~ .custom-icon-checkbox__icon {
+  filter: invert(1);
+}
+
+.custom-icon-checkbox.cart-checkbox {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
 }

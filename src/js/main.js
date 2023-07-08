@@ -33,6 +33,21 @@ var mainSlider = new Swiper(".blogsSlider", {
     },
 });
 
+// product main slider
+var mainSlider = new Swiper(".productMainSlider", {
+    spaceBetween: 0,
+    effect: "fade",
+    loop: true,
+    slidesPerView: 1,
+    autoplay: {
+        delay: 3000,
+    },
+    pagination: {
+        el: ".productMain-pagination",
+        clickable: true,
+    },
+});
+
 // article
 var articleSlider = new Swiper(".articleSlider", {
     loop: true,

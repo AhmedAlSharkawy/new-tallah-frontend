@@ -825,6 +825,10 @@
   width: fit-content;
 }
 
+.blogsSlider {
+  height: 300px;
+  border-radius: 12px;
+}
 .blogsSlider__pagination {
   position: absolute;
   bottom: 16px;
