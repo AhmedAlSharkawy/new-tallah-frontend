@@ -86,6 +86,44 @@ var articleSlider = new Swiper(".articleSlider", {
     }
 });
 
+// productCards
+var productCardsSlider = new Swiper(".productCardsSlider", {
+    loop: true,
+    speed: 1500,
+    slidesPerView: 4,
+    navigation: {
+        nextEl: ".productCards-next",
+        prevEl: ".productCards-prev",
+    },
+    pagination: {
+        el: ".productCards-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        0: {
+            spaceBetween: 8,
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+        },
+        500: {
+            spaceBetween: 0,
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+        },
+        992: {
+            spaceBetween: 12,
+            slidesPerView: 4,
+            slidesPerGroup: 4,
+
+        },
+        1199: {
+            spaceBetween: 24,
+            slidesPerView: 4,
+            slidesPerGroup: 4,
+        },
+    }
+});
+
 // brands-cafe
 var brandsSlider = new Swiper(".brandsSlider", {
     loop: false,
@@ -192,3 +230,8 @@ function setGalleryGridRows() {
         $(".gallery").css('grid-template-rows', 'repeat(14, 6vw)');   
     }
 }
+
+$('#myTab a').on('click', function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+  });

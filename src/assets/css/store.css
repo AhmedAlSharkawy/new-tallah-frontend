@@ -2944,7 +2944,7 @@
   width: 250px;
 }
 
-.store-product .frame-278-weJMtF {
+.store-product .store-product-wrapper-weJMtF {
   --z-index: 2;
   background-color: transparent;
   height: 431px;
@@ -17392,53 +17392,6 @@
   width: fit-content;
 }
 
-.store .product-big-card {
-  --z-index: 0;
-  align-items: flex-start;
-  background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  height: auto;
-  opacity: 1;
-  position: relative;
-  width: 100%;
-}
-
-.store .product-big-card-img-data-container {
-  --z-index: 0;
-  align-items: flex-start;
-  background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  height: auto;
-  opacity: 1;
-  position: relative;
-  width: 100%;
-}
-
-.store .product-big-card-img-data-wrapper {
-  --z-index: 0;
-  background-color: transparent;
-  height: 180px;
-  width: 100%;
-  opacity: 1;
-  position: relative;
-}
-
-.store .product-big-card-img {
-  --z-index: 0;
-  background-color: transparent;
-  background-image: url(../img/rectangle-1-72@2x.png);
-  background-size: 100% 100%;
-  height: 180px;
-  mix-blend-mode: normal;
-  opacity: 1;
-  position: relative;
-  width: 100%;
-}
-
 .store .frame-169-xmx7a8 {
   --z-index: 1;
   align-items: center;
@@ -17477,20 +17430,6 @@
   width: fit-content;
 }
 
-.store .product-big-card-activity {
-  --z-index: 2;
-  align-items: flex-start;
-  background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  height: auto;
-  right: 8px;
-  opacity: 1;
-  position: absolute;
-  top: 8px;
-  width: fit-content;
-}
 
 .store .favorite-ZV1emN {
   --z-index: 0;
@@ -17580,48 +17519,7 @@
   width: 24px;
 }
 
-.store .product-big-card-data-container {
-  --z-index: 1;
-  align-items: center;
-  background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  height: auto;
-  opacity: 1;
-  position: relative;
-  width: 100%;
-}
 
-.store .product-big-card-title-container {
-  --z-index: 0;
-  align-items: flex-end;
-  background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  opacity: 1;
-  position: relative;
-  width: 100%;
-}
-
-.store .product-big-card-title {
-  --z-index: 0;
-  background-color: transparent;
-  color: #312b43;
-  font-family: 'Bahij TheSansArabic-Bold', Helvetica;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  margin-top: -1.00px;
-  mix-blend-mode: normal;
-  opacity: 1;
-  position: relative;
-  text-align: right;
-  width: 100%;
-}
 
 .store .rating-HYj1Yu {
   --z-index: 1;
@@ -17635,18 +17533,6 @@
   opacity: 1;
   position: relative;
   width: fit-content;
-}
-
-.store .product-big-card-price-container {
-  --z-index: 1;
-  align-items: flex-start;
-  background-color: transparent;
-  display: flex;
-  height: auto;
-  justify-content: space-between;
-  opacity: 1;
-  position: relative;
-  width: 100%;
 }
 
 .store .price-Qo9a6H {

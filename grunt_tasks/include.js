@@ -6,6 +6,7 @@ module.exports = {
             "./src/views/blog sub category.html": "./src/templates/blog sub category.html",
             "./src/views/article.html": "./src/templates/article.html",
             "./src/views/store.html": "./src/templates/store.html",
+            "./src/views/store_product_page.html": "./src/templates/store_product_page.html",
         }
     }
 }

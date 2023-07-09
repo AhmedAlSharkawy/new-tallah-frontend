@@ -163,7 +163,7 @@ button {
   width: 288px;
 }
 
-.text {
+.text, .input-text {
   direction: rtl;
   letter-spacing: 0;
   line-height: normal;
@@ -1813,4 +1813,143 @@ button {
   position: absolute;
   bottom: 8px;
   right: 8px;
+}
+.custom-nav-pills .nav-link {
+  padding: 8px 24px;
+}
+.custom-nav-pills .nav-link.active {
+  background-color: var(--primarypink100);
+  color: white;
+  border-radius: 8px;
+}
+.custom-nav-pills .nav-link.active .nav-item__text {
+  color: white;
+}
+.custom-nav-pills .nav-item {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px 8px 8px 24px;
+  position: relative;
+  width: fit-content;
+  align-self: stretch;
+}
+
+.product-big-card-price-container {
+  --z-index: 1;
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  opacity: 1;
+  position: relative;
+  width: 100%;
+}
+
+
+.product-big-card {
+  --z-index: 0;
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: auto;
+  opacity: 1;
+  position: relative;
+  width: 100%;
+}
+.product-big-card-img-data-container {
+  --z-index: 0;
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: auto;
+  opacity: 1;
+  position: relative;
+  width: 100%;
+}
+
+.product-big-card-img-data-wrapper {
+  --z-index: 0;
+  background-color: transparent;
+  height: 180px;
+  width: 100%;
+  opacity: 1;
+  position: relative;
+}
+
+.product-big-card-img {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(../img/rectangle-1-72@2x.png);
+  background-size: 100% 100%;
+  height: 180px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: relative;
+  width: 100%;
+}
+
+.product-big-card-data-container {
+  --z-index: 1;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: auto;
+  opacity: 1;
+  position: relative;
+  width: 100%;
+}
+
+.product-big-card-title-container {
+  --z-index: 0;
+  align-items: flex-end;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  opacity: 1;
+  position: relative;
+  width: 100%;
+}
+
+.product-big-card-title {
+  --z-index: 0;
+  background-color: transparent;
+  color: #312b43;
+  font-family: 'Bahij TheSansArabic-Bold', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1.00px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: relative;
+  text-align: right;
+  width: 100%;
+}
+
+
+.product-big-card-activity {
+  --z-index: 2;
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  height: auto;
+  right: 8px;
+  opacity: 1;
+  position: absolute;
+  top: 8px;
+  width: fit-content;
 }
