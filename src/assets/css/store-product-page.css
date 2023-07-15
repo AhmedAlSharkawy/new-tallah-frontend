@@ -1199,9 +1199,10 @@
   width: fit-content;
 }
 
-.rating {
+.rating-star {
   height: 16px;
-  min-width: 80px;
+  min-width: 16px;
+  width: 16px;
   position: relative;
 }
 
@@ -1386,12 +1387,23 @@
   width: 1360px;
 }
 
-.flex-row-3 {
-  align-items: flex-end;
+.flex-row-3, .ratings-container {
   display: flex;
   gap: 24px;
   height: 532px;
-  min-width: 1084px;
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  height: 532px;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.rating-card__container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
 }
 
 .frame-28 {
@@ -1404,7 +1416,7 @@
   width: fit-content;
 }
 
-.frame-1-1 {
+.frame-1-1, .rating-card {
   align-items: flex-end;
   background-color: var(--primarywhite100);
   border-radius: 8px;
@@ -1413,7 +1425,8 @@
   gap: 8px;
   padding: 16px;
   position: relative;
-  width: 530px;
+  width: 100%;
+  margin-bottom: 16px;
 }
 
 .frame-2 {
@@ -1425,6 +1438,24 @@
   width: fit-content;
 }
 
+.rating-card__inner-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  position: relative;
+  width: fit-content;
+}
+
+.product-slider__container {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
 .frame-2-2 {
   align-items: flex-end;
   display: flex;
@@ -2209,4 +2240,37 @@
 
 .tab-content, .tab-pane {
     width: 100%;
+}
+
+.product-color__box-container {
+  flex-direction: row-reverse;
+}
+
+.product-color__box {
+  border-radius: 14px;
+  height: 40px;
+  min-width: 40px;
+  position: relative;
+}
+
+.product-color__box--color_1 {
+  background-color: var(--primarypurple100);
+}
+.product-color__box--color_2 {
+  background-color: var(--secondaryred-pear);
+}
+.product-color__box--color_3 {
+  background-color: var(--secondarygrape-compote);
+}
+.product-color__box--color_4 {
+  background-color: var(--primarypink100);
+}
+.product-color__box--color_5 {
+  background-color: #88674F;
+}
+.product-color__box--color_6 {
+  background-color: #D40054;
+}
+.product-color__box--color_7 {
+  background-color: #005C5D;
 }

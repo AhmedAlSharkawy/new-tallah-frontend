@@ -1672,6 +1672,7 @@ button {
 
 .slider__pagination {
   text-align: center;
+  margin-top: 16px;
 }
 
 .swiper-pagination-bullet {
@@ -1952,4 +1953,148 @@ button {
   position: absolute;
   top: 8px;
   width: fit-content;
+}
+
+.product-big-card__price--disabled {
+  --z-index: 0;
+  background-color: transparent;
+  color: #837f8e;
+  font-family: 'Bahij TheSansArabic-Bold', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1.00px;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  position: relative;
+  text-align: right;
+  text-decoration: line-through;
+  width: fit-content;
+}
+
+.product-big-card__price {
+  --z-index: 1;
+  background-color: transparent;
+  color: #ef6498;
+  font-family: 'Bahij TheSansArabic-Bold', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1.00px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
+
+.rating-card__star-container {
+  width: fit-content;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  gap: 0;
+}
+
+/* styled-checkbox */
+ul.styled-checkbox-elements {
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+ul.styled-checkbox-elements li {
+  display: inline-block;
+  width: calc(33% - 5px);
+}
+
+input[type="checkbox"][class^="styled-checkbox"] {
+  display: none;
+}
+
+.styled-checkbox-label {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #E6E6E6;
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+
+.styled-checkbox-label img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  transition-duration: 0.2s;
+  transform-origin: 50% 50%;
+}
+
+.styled-checkbox:checked + label {
+  border-color: var(--purple-and-pink, linear-gradient(270deg, #EF6498 0%, #542D91 100%));
+}
+
+/* styled-radio */
+ul.styled-radio-elements {
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+ul.styled-radio-elements li {
+  display: inline-block;
+}
+
+input[type="radio"][class^="styled-radio"] {
+  display: none;
+}
+
+.styled-radio-label {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #E6E6E6;
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+
+.styled-radio-label img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  transition-duration: 0.2s;
+  transform-origin: 50% 50%;
+}
+
+.styled-radio:checked + label {
+  border-color: var(--purple-and-pink, linear-gradient(270deg, #EF6498 0%, #542D91 100%));
+}
+
+.styled-radio:disabled + label div {
+  opacity: 0.2;
+}
+
+.styled-radio:disabled + label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: not-allowed;
+}
+
+.styled-radio:disabled + label:after {
+  position: absolute;
+  content: "x";
+  font-size: 20px;
+  color: #f6f4f9;
 }
