@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--(bake headLinks.html)-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/my-orders.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/user-menu.css" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <!--(bake ../components/navbar.html)-->
+    <div class="container">
+      <div class="row">
+        <div class="container-center-horizontal">
+          <div class="my-orders-with-user-photo screen">
+            <div class="my-orders-with__row col-12">
+              <div class="row">
+              <div class="col-12 col-md-9 my-orders__table-container">
+                <div class="my-orders__header">
+                  <div class="frame-69">
+                    <div class="text-2 bahijthesansarabic-bold-gigas-12px">طلباتي</div>
+                    <img class="chevron-left" src="../assets/img/chevron-left@2x.png" alt="chevron-left" />
+                    <div class="text-2 bahijthesansarabic-bold-violet-red-12px">الرئيسية</div>
+                  </div>
+                  <div class="product-title"><h1 class="text-34">طلباتي</h1></div>
+                </div>
+                <div class="my-orders__table-header">
+                  <div class="navbar-link-text-45 my-orders__table-cell">حالة الطلب</div>
+                  <div class="navbar-link-text-43 my-orders__table-cell">وسيلة الدفع</div>
+                  <div class="navbar-link-text-44 my-orders__table-cell">المبلغ</div>
+                  <div class="navbar-link-text-46 my-orders__table-cell">العناصر</div>
+                  <div class="navbar-link-text-42 my-orders__table-cell">التاريخ</div>
+                  <div class="navbar-link-text-41 my-orders__table-cell">رقم الطلب</div>
+                </div>
+                <div class="my-orders__table">
+                  <!-- Follow this file to fill table row -->
+                  <!--(bake ../components/orders/my-orders-table-row.html)-->
+                  <!--(bake ../components/orders/my-orders-table-row-shipped.html)-->
+                  <!--(bake ../components/orders/my-orders-table-row-inprogress.html)-->
+                  <!--(bake ../components/orders/my-orders-table-row-delivered.html)-->
+                  <!--(bake ../components/orders/my-orders-table-row-cancelled.html)-->
+                </div>
+                <div class="frame-359">
+                  <div class="pager">
+                    <div class="pagination">
+                      <div class="frame-1">
+                        <select class="my-orders__num-rows-select" name="numberofrows">
+                          <option value="volvo">10</option>
+                          <option value="saab">15</option>
+                          <option value="mercedes">20</option>
+                          <option value="audi">25</option>
+                        </select>
+                        
+                      </div>
+                    </div>
+                    <div class="text-37 bahijthesansarabic-bold-scarpa-flow-14px">عدد الطلبات في الصفحة</div>
+                  </div>
+                  <!--(bake ../components/pagination.html)-->
+                </div>
+              </div>
+              <div class="col-12 col-md-3 flex-col-2 flex-col-3">
+                <div class="user-photo">
+                  <div class="frame-325">
+                    <div class="group-127-1">
+                      <div class="group-130">
+                        <div class="overlap-group-3">
+                          <div class="rectangle-28"></div>
+                          <img class="rectangle-29" src="../assets/img/rectangle-29@2x.png" alt="Rectangle 29" />
+                          <img class="edit-2" src="../assets/img/edit-2@2x.png" alt="edit-2" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-title">
+                    <p class="user-name__container">
+                      <span class="user-name-hi">مرحباً،</span> <span class="user-name">نيرة الشريف</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="my-orders__side-nav">
+                  <div class="my-orders__side-nav__icon-container">
+                    <a class="my-orders__side-nav__btn">
+                      <div class="text-29 bahijthesansarabic-bold-white-14px">طلباتي</div>
+                      <img
+                        class="newspaper-newsletter"
+                        src="../assets/img/newspaper-newsletter-1@2x.png"
+                        alt="newspaper-newsletter"
+                      />
+                    </a>
+                    <a class="my-orders__side-nav__btn">
+                      <div class="text-2 bahijthesansarabic-bold-blackcurrant-14px">طلبات الإرجاع</div>
+                      <img class="arrows-dots-rotate" src="../assets/img/arrows-dots-rotate-1@2x.png" alt="arrows-dots-rotate" />
+                    </a>
+                    <a class="my-orders__side-nav__btn">
+                      <div class="text-2 bahijthesansarabic-bold-blackcurrant-14px">العناوين</div>
+                      <img class="route" src="../assets/img/route-1@2x.png" alt="route" />
+                    </a>
+                    <a class="my-orders__side-nav__btn">
+                      <div class="text-2 bahijthesansarabic-bold-blackcurrant-14px">إعدادات الحساب</div>
+                      <img class="user-gear" src="../assets/img/user-gear@2x.png" alt="user-gear" />
+                    </a>
+                    <a class="my-orders__side-nav__btn">
+                      <div class="text-2 bahijthesansarabic-bold-blackcurrant-14px">تسجيل الخروج</div>
+                      <img class="log-in" src="../assets/img/log-in@2x.png" alt="log-in" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!--(bake ../components/footer.html)-->
+          </div>
+        </div>
+        <div id="overlay-user-menu" class="overlay-base">
+          <div class="user-menu screen">
+            <div class="user-menu-1">
+              <div class="frame-283 frame bahijthesansarabic-bold-blackcurrant-14px">
+                <div class="frame-2 frame">
+                  <div class="text">طلباتي</div>
+                  <img class="newspaper-newsletter" src="../assets/img/newspaper-newsletter@2x.png" alt="newspaper-newsletter" />
+                </div>
+                <div class="frame-2 frame">
+                  <div class="text">طلبات الإرجاع</div>
+                  <img class="arrows-dots-rotate" src="../assets/img/arrows-dots-rotate@2x.png" alt="arrows-dots-rotate" />
+                </div>
+                <div class="frame-2 frame">
+                  <div class="text">العناوين</div>
+                  <img class="route" src="../assets/img/route@2x.png" alt="route" />
+                </div>
+                <div class="frame-2 frame">
+                  <div class="text">إعدادات الحساب</div>
+                  <img class="user-gear" src="../assets/img/user-gear@2x.png" alt="user-gear" />
+                </div>
+                <div class="frame-2 frame">
+                  <div class="text">تسجيل الخروج</div>
+                  <img class="log-in" src="../assets/img/log-in@2x.png" alt="log-in" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      ShowOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") == -1) {
+          document.getElementById(overlayName).className =
+            document.getElementById(overlayName).className + " " + animationName;
+        }
+        if (window.loadAsyncSrc != undefined) {
+          loadAsyncSrc();
+        }
+      };
+
+      HideOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") != -1) {
+          cssClasses.splice(-1);
+          cssClasses.push(animationName);
+          document.getElementById(overlayName).className = cssClasses.join(" ");
+
+          cssClasses.splice(-1);
+          setTimeout(function () {
+            document.getElementById(overlayName).className = cssClasses.join(" ");
+          }, 1100);
+        }
+        var vids = document.getElementsByTagName("video");
+        if (vids) {
+          for (var i = 0; i < vids.length; i++) {
+            var video = vids.item(i);
+            video.pause();
+          }
+        }
+      };
+
+      closeOutsideOverlay = function (overlay_slug) {
+        var overlay_id = `overlay-${overlay_slug}`;
+        const overlayElement = document.getElementById(overlay_id);
+        overlayElement.addEventListener(
+          `click`,
+          function (event) {
+            var overlay_id = `overlay-${overlay_slug}`;
+            var e = event || window.event;
+            var overlayContainer = overlayElement.getElementsByClassName(`${overlay_slug}`);
+            if (e.target === overlayElement) {
+              HideOverlay(`${overlay_slug}`, "animate-disappear");
+            }
+          },
+          false
+        );
+      };
+
+      CloseOnOverlayClick = function (overlay_slug) {
+        var overlay_id = `overlay-${overlay_slug}`;
+        document.getElementById(overlay_id).addEventListener(
+          `click`,
+          function (event) {
+            {
+              var overlay_id = `overlay-${overlay_slug}`;
+              var e = event || window.event;
+              var overlayElement = document.getElementById(overlay_id);
+              var overlayContainer = overlayElement.getElementsByClassName(`${overlay_slug}`);
+              var clickedDiv = e.toElement || e.target;
+              var dismissButton = clickedDiv.parentElement.id == overlay_id;
+              var clickOutsideOverlay = false;
+              if (overlayContainer.length > 0) {
+                {
+                  clickOutsideOverlay = !overlayContainer[0].contains(clickedDiv) || overlayContainer[0] == clickedDiv;
+                }
+              }
+              if (dismissButton || clickOutsideOverlay) {
+                {
+                  HideOverlay(`${overlay_slug}`, "animate-disappear");
+                }
+              }
+            }
+          },
+          false
+        );
+      };
+    </script>
+    <script>
+      closeOutsideOverlay("user-menu");
+    </script>
+    <script>
+      closeOutsideOverlay("cart");
+    </script>
+    <script>
+      closeOutsideOverlay("sort");
+    </script>
+  </body>
+</html>

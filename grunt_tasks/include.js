@@ -7,6 +7,7 @@ module.exports = {
             "./src/views/article.html": "./src/templates/article.html",
             "./src/views/store.html": "./src/templates/store.html",
             "./src/views/store_product_page.html": "./src/templates/store_product_page.html",
+            "./src/views/my_orders.html": "./src/templates/my_orders.html",
         }
     }
 }

@@ -1,0 +1,1088 @@
+/* screen - my-orders-with-user-photo */
+
+.my-orders-with-user-photo {
+  align-items: center;
+  background-color: var(--primarywhite100);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0;
+  width: 100%;
+}
+
+.my-orders-with-user-photo .flex-col-1 {
+  align-items: center;
+  gap: 24px;
+  min-height: 128px;
+  width: 1440px;
+}
+
+
+.my-orders-with-user-photo .frame-container {
+  align-items: center;
+  display: flex;
+  min-width: 1244px;
+}
+
+.my-orders-with-user-photo .button-2 {
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgb(239, 100, 152) 0%,
+    rgb(84, 45, 145) 100%
+  );
+  border-radius: 24px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .text {
+  direction: rtl;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .button-3 {
+  align-items: center;
+  background-color: var(--violet-red);
+  border-radius: 24px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .group-10 {
+  background-color: var(--violet-red);
+  border-radius: 12px;
+  display: flex;
+  height: 32px;
+  min-width: 32px;
+  position: relative;
+}
+
+.my-orders-with-user-photo .instagram {
+  height: 24px;
+  margin-left: 4px;
+  margin-top: 4px;
+  width: 24px;
+}
+
+.my-orders-with-user-photo .twitter {
+  height: 24px;
+  margin-left: 4px;
+  margin-top: 4px;
+  width: 24px;
+}
+
+.my-orders-with-user-photo .facebook {
+  height: 24px;
+  margin-left: 4px;
+  margin-top: 4px;
+  width: 24px;
+}
+
+.my-orders-with-user-photo .group-106 {
+  display: flex;
+  gap: 71.8px;
+  height: 40px;
+  min-width: 1234px;
+  position: relative;
+}
+
+.my-orders-with-user-photo .frame-161 {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  height: 40px;
+  position: relative;
+  width: 334.19px;
+}
+
+.my-orders-with-user-photo .group-81 {
+  height: 32px;
+  min-width: 31px;
+  position: relative;
+}
+
+.my-orders-with-user-photo .group-container-1 {
+  height: 32px;
+  position: relative;
+  width: 33px;
+}
+
+.my-orders-with-user-photo .group-75 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 24px;
+}
+
+.my-orders-with-user-photo .overlap-group-1 {
+  height: 20px;
+  left: 15px;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.my-orders-with-user-photo .number {
+  height: 20px;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.my-orders-with-user-photo .heart {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 24px;
+}
+
+.my-orders-with-user-photo .overlap-group-2 {
+  height: 20px;
+  left: 16px;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.my-orders-with-user-photo .user {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .text-1 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    180deg,
+    rgb(239, 100, 152) 0%,
+    rgb(84, 45, 145) 100%
+  );
+  background-clip: text;
+  direction: rtl;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  text-fill-color: transparent;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .group-127 {
+  border: 2px solid;
+  border-color: var(--wisp-pink);
+  border-radius: 12px;
+  display: flex;
+  height: 40px;
+  min-width: 40px;
+  position: relative;
+}
+
+.my-orders-with-user-photo .frame-46 {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  height: 23px;
+  justify-content: flex-end;
+  margin-top: 7.5px;
+  position: relative;
+  width: 828px;
+}
+
+.my-orders-with-user-photo .layer-1 {
+  display: flex;
+  height: 96px;
+  width: 76px;
+}
+
+.my-orders-with-user-photo .group {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1px;
+  min-height: 100%;
+  width: 75.6px;
+}
+
+.my-orders-with-user-photo .group-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-left: 0;
+  min-height: 78px;
+  width: 76px;
+}
+
+.my-orders-with-user-photo .vector-container-1 {
+  align-self: flex-end;
+  height: 8px;
+  position: relative;
+  width: 14px;
+}
+
+.my-orders-with-user-photo .vector-container-2 {
+  align-self: flex-end;
+  height: 8px;
+  margin-left: 2px;
+  position: relative;
+  width: 14px;
+}
+
+.my-orders-with-user-photo .vector-container-3 {
+  align-self: flex-end;
+  height: 6px;
+  margin-bottom: 0.03px;
+  margin-left: 1px;
+  position: relative;
+  width: 10px;
+}
+
+.my-orders-with-user-photo .vector-container-4 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 2.16px;
+  min-width: 56px;
+}
+
+.my-orders-with-user-photo .rectangle-12 {
+  background: linear-gradient(
+    180deg,
+    rgb(239, 100, 152) 0%,
+    rgb(84, 45, 145) 100%
+  );
+  height: 8px;
+  width: 1440px;
+}
+
+.my-orders-with-user-photo .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 12px;
+  margin-top: 48px;
+  width: 100%;
+}
+
+.my-orders-with__row {
+  margin-top: 48px;
+}
+
+.my-orders-with-user-photo .my-orders__table-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-orders-with-user-photo .my-orders__header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.my-orders-with-user-photo .frame-69 {
+  align-items: flex-start;
+  display: flex;
+  gap: 2px;
+  justify-content: flex-end;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .text-2 {
+  direction: rtl;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .product-title {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+}
+
+.my-orders-with-user-photo .product-title .user-name {
+  -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+  background: var(--purple-and-pink, linear-gradient(270deg, #EF6498 0%, #542D91 100%));
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: 24px;
+  text-align: right;
+  font-weight: 500;
+  line-height: initial;
+  width: 100%;
+}
+
+.my-orders-with-user-photo .product-title .user-name-hi {
+  color: var(--text-primary, #312B43);
+  text-align: right;
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: initial;
+}
+
+.my-orders-with-user-photo .text-34 {
+  color: var(--textprimary);
+  direction: rtl;
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .my-orders__table-header {
+  align-items: center;
+  background-color: #f6f4f9;
+  border-radius: 8px;
+  display: flex;
+  height: 42px;
+  justify-content: flex-end;
+  margin-top: 16px;
+  width: 100%;
+  padding: 0;
+}
+
+.my-orders-with-user-photo .navbar-link-text-45 {
+  direction: rtl;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 20px;
+  min-width: 55px;
+  text-align: left;
+}
+
+.my-orders-with-user-photo .navbar-link-text-43 {
+  direction: rtl;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 77px;
+  min-height: 20px;
+  min-width: 65px;
+  text-align: left;
+}
+
+.my-orders-with-user-photo .navbar-link-text-44 {
+  direction: rtl;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 117px;
+  min-height: 20px;
+  min-width: 32px;
+  text-align: left;
+}
+
+.my-orders-with-user-photo .navbar-link-text-46 {
+  direction: rtl;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 111px;
+  min-height: 20px;
+  min-width: 38px;
+  text-align: left;
+}
+
+.my-orders-with-user-photo .navbar-link-text-42 {
+  direction: rtl;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 82px;
+  min-height: 20px;
+  min-width: 33px;
+  text-align: left;
+}
+
+.my-orders-with-user-photo .navbar-link-text-41 {
+  direction: rtl;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 88px;
+  min-height: 20px;
+  min-width: 54px;
+  text-align: left;
+}
+
+.my-orders-with-user-photo .my-orders__table {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.my-orders-with-user-photo .my-orders__table-row {
+  height: 72px;
+  width: 100%;
+  position: relative;
+}
+
+.my-orders-with-user-photo .my-orders__table-row-wrapper {
+  align-items: center;
+  flex-direction: row-reverse;
+  background-color: var(--wisp-pink);
+  border-radius: 8px;
+  display: flex;
+  height: 72px;
+  width: 100%;
+  padding: 0;
+}
+
+.my-orders-with-user-photo .button {
+  height: 40px;
+  width: 40px;
+}
+
+.my-orders-with-user-photo .button-1 {
+  height: 40px;
+  margin-left: 8px;
+  width: 40px;
+}
+
+.my-orders-with-user-photo .frame-337 {
+  align-items: center;
+  background-color: var(--secondarymajolica-blue);
+  border-radius: 16px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-left: 92px;
+  padding: 2px 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .text-3 {
+  direction: rtl;
+  height: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1px;
+  margin-left: 48px;
+  min-width: 98px;
+  text-align: center;
+}
+
+.my-orders-with-user-photo .price {
+  height: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1px;
+  margin-left: 83px;
+  min-width: 68px;
+  text-align: center;
+}
+
+.my-orders-with-user-photo .number-1 {
+  height: 23px;
+  margin-bottom: 1px;
+  margin-left: 105px;
+  min-width: 14px;
+  text-align: center;
+}
+
+.my-orders-with-user-photo .date {
+  height: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1px;
+  margin-left: 74px;
+  min-width: 72px;
+  text-align: center;
+}
+
+.my-orders-with-user-photo .phone {
+  height: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1px;
+  margin-left: 62px;
+  min-width: 67px;
+  text-align: center;
+}
+
+.my-orders-with-user-photo .group-1-1 {
+  height: 72px;
+  margin-right: -8px;
+  min-width: 1022px;
+  position: relative;
+}
+
+.my-orders-with-user-photo .frame-337-1 {
+  background-color: var(--secondarynebulas-blue);
+  margin-left: 136px;
+}
+
+.my-orders-with-user-photo .image-3 {
+  height: 12px;
+  margin-bottom: 2px;
+  margin-left: 75px;
+  object-fit: cover;
+  width: 37px;
+}
+
+.my-orders-with-user-photo .price-1 {
+  margin-bottom: 1px;
+  margin-left: 113px;
+}
+
+.my-orders-with-user-photo .frame-337-2 {
+  background-color: var(--secondaryrusset-orange);
+  margin-left: 90px;
+}
+
+.my-orders-with-user-photo .text-4 {
+  direction: rtl;
+  height: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1px;
+  margin-left: 47px;
+  min-width: 98px;
+  text-align: center;
+}
+
+.my-orders-with-user-photo .frame-360 {
+  align-items: center;
+  background-color: var(--secondaryquetzal-green);
+  border-radius: 16px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-left: 87px;
+  padding: 2px 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .image-3-1 {
+  margin-left: 74px;
+}
+
+.my-orders-with-user-photo .frame-360-1 {
+  align-items: center;
+  background-color: var(--secondaryred-pear);
+  border-radius: 16px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-left: 139px;
+  padding: 2px 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .image-3-2 {
+  margin-left: 78px;
+}
+
+.my-orders-with-user-photo .frame-4 {
+  height: 16px;
+  margin-left: 80px;
+  width: 25px;
+}
+
+.my-orders-with-user-photo .price-2 {
+  margin-left: 120px;
+  margin-top: 1px;
+}
+
+.my-orders-with-user-photo .frame-314 {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  margin-left: 73px;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .image-5 {
+  height: 24px;
+  min-width: 37.47px;
+  object-fit: cover;
+  position: relative;
+}
+
+.my-orders-with-user-photo .price-3 {
+  margin-bottom: 1px;
+  margin-left: 114px;
+}
+
+.my-orders-with-user-photo .frame-359 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  position: relative;
+  width: 100%;
+}
+
+.my-orders-with-user-photo .pager {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .pagination {
+  align-items: flex-start;
+  display: flex;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .frame-1 {
+  align-items: center;
+  background-color: var(--daisy-bush);
+  border-radius: 24px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 6px 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .frame-355 {
+  align-items: center;
+  display: flex;
+  gap: 3px;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .number-2 {
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .text-37 {
+  direction: rtl;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .pagination-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .number-3 {
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .text-39 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .number-4 {
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .number-5 {
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .frame-126 {
+  align-items: center;
+  background-color: var(--primarypurple100);
+  border-radius: 24px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 6px 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .number-6 {
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .flex-col-2 {
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.my-orders-with-user-photo .user-photo {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 126px;
+  width: 100%;
+}
+
+.my-orders-with-user-photo .frame-325 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .group-127-1 {
+  display: flex;
+  height: 80px;
+  min-width: 87px;
+  position: relative;
+}
+
+.my-orders-with-user-photo .group-130 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 87px;
+}
+
+.my-orders-with-user-photo .overlap-group-3 {
+  height: 80px;
+  position: relative;
+  width: 87px;
+}
+
+.my-orders-with-user-photo .rectangle-28 {
+  background-color: var(--primarywhite100);
+  border: 2px solid;
+  border-color: var(--wisp-pink);
+  border-radius: 32px;
+  height: 80px;
+  left: 7px;
+  position: absolute;
+  top: 0;
+  width: 80px;
+}
+
+.my-orders-with-user-photo .rectangle-29 {
+  height: 80px;
+  left: 7px;
+  position: absolute;
+  top: 0;
+  width: 80px;
+}
+
+.my-orders-with-user-photo .edit-2 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 55px;
+  width: 24px;
+}
+
+.my-orders-with-user-photo .image {
+  height: 29.59px;
+  min-width: 183.8px;
+  position: relative;
+}
+
+.my-orders-with-user-photo .my-orders__side-nav {
+  background-color: var(--gigas);
+  border-radius: 8px;
+  display: flex;
+  width: 100%;
+  border-radius: 8px;
+  background: #f6f4f9;
+  justify-content: flex-end;
+  padding: 32px;
+}
+
+.my-orders-with-user-photo .my-orders__side-nav__icon-container {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.my-orders-with-user-photo .my-orders__side-nav__btn {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .my-orders__side-nav__btn img {
+  width: 17px;
+  height: 17px;
+}
+.my-orders-with-user-photo .text-29 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    180deg,
+    rgb(239, 100, 152) 0%,
+    rgb(84, 45, 145) 100%
+  );
+  background-clip: text;
+  direction: rtl;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-fill-color: transparent;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .frame-124 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin-top: 64px;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .frame-container-1 {
+  align-items: center;
+  background-color: var(--wisp-pink);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  left: 0;
+  min-height: 440px;
+  padding: 60px 0;
+  position: absolute;
+  top: 0;
+  width: 1360px;
+}
+
+.my-orders-with-user-photo .frame {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .instagram-1 {
+  height: 24px;
+  margin-left: 4px;
+  margin-top: 4px;
+  width: 24px;
+}
+
+.my-orders-with-user-photo .twitter-1 {
+  height: 24px;
+  margin-left: 4px;
+  margin-top: 4px;
+  width: 24px;
+}
+
+.my-orders-with-user-photo .facebook-1 {
+  height: 24px;
+  margin-left: 4px;
+  margin-top: 4px;
+  width: 24px;
+}
+
+.my-orders-with-user-photo .text-20 {
+  direction: rtl;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .frame-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  justify-content: flex-end;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .text-19 {
+  direction: rtl;
+  left: 566px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 471px;
+}
+
+.my-orders-with-user-photo .arrow-down-3 {
+  height: 16px;
+  min-width: 16px;
+  position: relative;
+}
+
+.my-orders-with-user-photo .flex-col-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-orders-with-user-photo .frame-337-3 {
+  align-items: center;
+  border-radius: 16px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 2px 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.my-orders-with-user-photo .image-3-3 {
+  height: 12px;
+  margin-bottom: 2px;
+  object-fit: cover;
+  width: 37px;
+}
+
+.my-orders-with-user-photo .number-7 {
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.my-orders-with-user-photo .price-4 {
+  height: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  min-width: 68px;
+  text-align: center;
+}
+
+.my-orders__table-cell {
+  width: 14% !important;
+  margin: 0 !important;
+  text-align: center !important;
+  height: auto !important;
+}
+
+.my-orders__order-status {
+  display: inline-flex;
+  padding: 2px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 24px;
+  width: fit-content;
+  max-width: 100%;
+  color: var(--primarywhite100);
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+  border-radius: 16px;
+}
+
+.my-orders__order-status--done {
+  background: var(--secondary-majolica-blue, #003764);
+}
+
+.my-orders__order-status--inprogress {
+  background: var(--secondary-nebulas-blue, #0071CE);
+}
+.my-orders__order-status--shipped {
+  background: var(--secondary-russet-orange, #E07C00);
+}
+.my-orders__order-status--delivered {
+  background: var(--secondary-quetzal-green, #005C5D);
+}
+.my-orders__order-status--cancelled {
+  background: var(--secondary-red-pear, #9F2842);
+}
+
+.my-orders__order-payment-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my-orders__order-payment-type img {
+  height: 16px;
+  width: auto;
+}
+
+.my-orders__order-cta-container {
+  justify-content: start;
+  display: flex;
+  gap: 8px;
+}
+
+.my-orders__order-cta-img {
+  height: 40px;
+  width: 40px;
+}
+
+.my-orders__num-rows-select {
+  background: transparent;
+  border: none;
+  width: 45px;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}

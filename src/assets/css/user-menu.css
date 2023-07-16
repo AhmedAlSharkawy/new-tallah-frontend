@@ -1,0 +1,60 @@
+/* screen - user-menu */
+
+.user-menu {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  min-height: 211px;
+  min-width: 173px;
+  padding: 24px 16px;
+  position: relative;
+  width: 100%;
+}
+
+#overlay-user-menu {
+  align-items: center;
+  background-color: #ffffff00;
+  justify-content: center;
+}
+
+.user-menu .user-menu-1 {
+  align-items: flex-start;
+  background-color: var(--primarywhite100);
+  border-radius: 8px;
+  box-shadow: 0px 0px 32px #00000029;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding: 24px 16px;
+  width: 173px;
+}
+
+.user-menu .frame-283 {
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.user-menu .frame-2 {
+  align-items: center;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.user-menu .text {
+  direction: rtl;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.user-menu .frame {
+  display: flex;
+  position: relative;
+  width: fit-content;
+}
