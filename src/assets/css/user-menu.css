@@ -8,7 +8,7 @@
   justify-content: flex-end;
   min-height: 211px;
   min-width: 173px;
-  padding: 24px 16px;
+  padding: 0;
   position: relative;
   width: 100%;
 }
@@ -48,7 +48,7 @@
   direction: rtl;
   letter-spacing: 0;
   line-height: normal;
-  margin-top: -1.00px;
+  margin-top: -1px;
   position: relative;
   width: fit-content;
 }
@@ -57,4 +57,9 @@
   display: flex;
   position: relative;
   width: fit-content;
+}
+
+.newspaper-newsletter__img {
+  width: 17px;
+  height: 17px;
 }

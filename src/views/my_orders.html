@@ -131,7 +131,10 @@
                     </div>
                   </div>
                 </div>
-                <a class="user" onclick="ShowOverlay('user-menu', 'animate-appear');">
+                <a
+                  class="user"
+                  onclick="ShowOverlay('user-menu', 'animate-appear');"
+                >
                   <div class="navbar__user__data">
                     <div class="frame-160">
                       <img
@@ -153,6 +156,56 @@
                       src="../assets/img/user.svg"
                       alt="icon-user"
                     />
+                  </div>
+                  <div id="overlay-user-menu" class="overlay-base">
+                    <div class="user-menu screen">
+                      <div class="user-menu-1">
+                        <div
+                          class="frame-283 frame bahijthesansarabic-bold-blackcurrant-14px"
+                        >
+                          <div class="frame-2 frame">
+                            <div class="text">طلباتي</div>
+                            <img
+                              class="newspaper-newsletter__img"
+                              src="../assets/img/newspaper-newsletter@2x.png"
+                              alt="newspaper-newsletter"
+                            />
+                          </div>
+                          <div class="frame-2 frame">
+                            <div class="text">طلبات الإرجاع</div>
+                            <img
+                              class="newspaper-newsletter__img"
+                              src="../assets/img/arrows-dots-rotate@2x.png"
+                              alt="arrows-dots-rotate"
+                            />
+                          </div>
+                          <div class="frame-2 frame">
+                            <div class="text">العناوين</div>
+                            <img
+                              class="newspaper-newsletter__img"
+                              src="../assets/img/route@2x.png"
+                              alt="route"
+                            />
+                          </div>
+                          <div class="frame-2 frame">
+                            <div class="text">إعدادات الحساب</div>
+                            <img
+                              class="newspaper-newsletter__img"
+                              src="../assets/img/user-gear@2x.png"
+                              alt="user-gear"
+                            />
+                          </div>
+                          <div class="frame-2 frame">
+                            <div class="text">تسجيل الخروج</div>
+                            <img
+                              class="newspaper-newsletter__img"
+                              src="../assets/img/log-in@2x.png"
+                              alt="log-in"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </a>
                 <div class="language hidden">English</div>
@@ -241,6 +294,98 @@
     </div>
     <div class="container-fluid rectangle-12"></div>
 
+    <script>
+      ShowOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") == -1) {
+          document.getElementById(overlayName).className =
+            document.getElementById(overlayName).className + " " + animationName;
+        }
+        if (window.loadAsyncSrc != undefined) {
+          loadAsyncSrc();
+        }
+      };
+
+      HideOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") != -1) {
+          cssClasses.splice(-1);
+          cssClasses.push(animationName);
+          document.getElementById(overlayName).className = cssClasses.join(" ");
+
+          cssClasses.splice(-1);
+          setTimeout(function () {
+            document.getElementById(overlayName).className = cssClasses.join(" ");
+          }, 1100);
+        }
+        var vids = document.getElementsByTagName("video");
+        if (vids) {
+          for (var i = 0; i < vids.length; i++) {
+            var video = vids.item(i);
+            video.pause();
+          }
+        }
+      };
+
+      closeOutsideOverlay = function (overlay_slug) {
+        var overlay_id = `overlay-${overlay_slug}`;
+        const overlayElement = document.getElementById(overlay_id);
+        overlayElement.addEventListener(
+          `click`,
+          function (event) {
+            var overlay_id = `overlay-${overlay_slug}`;
+            var e = event || window.event;
+            var overlayContainer = overlayElement.getElementsByClassName(`${overlay_slug}`);
+            if (e.target === overlayElement) {
+              HideOverlay(`${overlay_slug}`, "animate-disappear");
+            }
+          },
+          false
+        );
+      };
+
+      CloseOnOverlayClick = function (overlay_slug) {
+        var overlay_id = `overlay-${overlay_slug}`;
+        document.getElementById(overlay_id).addEventListener(
+          `click`,
+          function (event) {
+            {
+              var overlay_id = `overlay-${overlay_slug}`;
+              var e = event || window.event;
+              var overlayElement = document.getElementById(overlay_id);
+              var overlayContainer = overlayElement.getElementsByClassName(`${overlay_slug}`);
+              var clickedDiv = e.toElement || e.target;
+              var dismissButton = clickedDiv.parentElement.id == overlay_id;
+              var clickOutsideOverlay = false;
+              if (overlayContainer.length > 0) {
+                {
+                  clickOutsideOverlay = !overlayContainer[0].contains(clickedDiv) || overlayContainer[0] == clickedDiv;
+                }
+              }
+              if (dismissButton || clickOutsideOverlay) {
+                {
+                  HideOverlay(`${overlay_slug}`, "animate-disappear");
+                }
+              }
+            }
+          },
+          false
+        );
+      };
+    </script>
+    <script>
+      closeOutsideOverlay("user");
+    </script>
+    <script>
+      closeOutsideOverlay("cart");
+    </script>
+    <script>
+      closeOutsideOverlay("sort");
+    </script>
     <div class="container">
       <div class="row">
         <div class="container-center-horizontal">
@@ -701,127 +846,7 @@
 
           </div>
         </div>
-        <div id="overlay-user-menu" class="overlay-base">
-          <div class="user-menu screen">
-            <div class="user-menu-1">
-              <div class="frame-283 frame bahijthesansarabic-bold-blackcurrant-14px">
-                <div class="frame-2 frame">
-                  <div class="text">طلباتي</div>
-                  <img class="newspaper-newsletter" src="../assets/img/newspaper-newsletter@2x.png" alt="newspaper-newsletter" />
-                </div>
-                <div class="frame-2 frame">
-                  <div class="text">طلبات الإرجاع</div>
-                  <img class="arrows-dots-rotate" src="../assets/img/arrows-dots-rotate@2x.png" alt="arrows-dots-rotate" />
-                </div>
-                <div class="frame-2 frame">
-                  <div class="text">العناوين</div>
-                  <img class="route" src="../assets/img/route@2x.png" alt="route" />
-                </div>
-                <div class="frame-2 frame">
-                  <div class="text">إعدادات الحساب</div>
-                  <img class="user-gear" src="../assets/img/user-gear@2x.png" alt="user-gear" />
-                </div>
-                <div class="frame-2 frame">
-                  <div class="text">تسجيل الخروج</div>
-                  <img class="log-in" src="../assets/img/log-in@2x.png" alt="log-in" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
-    <script>
-      ShowOverlay = function (overlayName, animationName) {
-        overlayName = "overlay-" + overlayName;
-        var cssClasses = document.getElementById(overlayName).className.split(" ");
-        var last = cssClasses.slice(-1)[0];
-        if (last.lastIndexOf("animate") == -1) {
-          document.getElementById(overlayName).className =
-            document.getElementById(overlayName).className + " " + animationName;
-        }
-        if (window.loadAsyncSrc != undefined) {
-          loadAsyncSrc();
-        }
-      };
-
-      HideOverlay = function (overlayName, animationName) {
-        overlayName = "overlay-" + overlayName;
-        var cssClasses = document.getElementById(overlayName).className.split(" ");
-        var last = cssClasses.slice(-1)[0];
-        if (last.lastIndexOf("animate") != -1) {
-          cssClasses.splice(-1);
-          cssClasses.push(animationName);
-          document.getElementById(overlayName).className = cssClasses.join(" ");
-
-          cssClasses.splice(-1);
-          setTimeout(function () {
-            document.getElementById(overlayName).className = cssClasses.join(" ");
-          }, 1100);
-        }
-        var vids = document.getElementsByTagName("video");
-        if (vids) {
-          for (var i = 0; i < vids.length; i++) {
-            var video = vids.item(i);
-            video.pause();
-          }
-        }
-      };
-
-      closeOutsideOverlay = function (overlay_slug) {
-        var overlay_id = `overlay-${overlay_slug}`;
-        const overlayElement = document.getElementById(overlay_id);
-        overlayElement.addEventListener(
-          `click`,
-          function (event) {
-            var overlay_id = `overlay-${overlay_slug}`;
-            var e = event || window.event;
-            var overlayContainer = overlayElement.getElementsByClassName(`${overlay_slug}`);
-            if (e.target === overlayElement) {
-              HideOverlay(`${overlay_slug}`, "animate-disappear");
-            }
-          },
-          false
-        );
-      };
-
-      CloseOnOverlayClick = function (overlay_slug) {
-        var overlay_id = `overlay-${overlay_slug}`;
-        document.getElementById(overlay_id).addEventListener(
-          `click`,
-          function (event) {
-            {
-              var overlay_id = `overlay-${overlay_slug}`;
-              var e = event || window.event;
-              var overlayElement = document.getElementById(overlay_id);
-              var overlayContainer = overlayElement.getElementsByClassName(`${overlay_slug}`);
-              var clickedDiv = e.toElement || e.target;
-              var dismissButton = clickedDiv.parentElement.id == overlay_id;
-              var clickOutsideOverlay = false;
-              if (overlayContainer.length > 0) {
-                {
-                  clickOutsideOverlay = !overlayContainer[0].contains(clickedDiv) || overlayContainer[0] == clickedDiv;
-                }
-              }
-              if (dismissButton || clickOutsideOverlay) {
-                {
-                  HideOverlay(`${overlay_slug}`, "animate-disappear");
-                }
-              }
-            }
-          },
-          false
-        );
-      };
-    </script>
-    <script>
-      closeOutsideOverlay("user-menu");
-    </script>
-    <script>
-      closeOutsideOverlay("cart");
-    </script>
-    <script>
-      closeOutsideOverlay("sort");
-    </script>
   </body>
 </html>
