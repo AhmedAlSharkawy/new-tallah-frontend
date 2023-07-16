@@ -17,7 +17,6 @@
   width: 1440px;
 }
 
-
 .my-orders-with-user-photo .frame-container {
   align-items: center;
   display: flex;
@@ -315,7 +314,7 @@
   width: fit-content;
 }
 
-.my-orders-with-user-photo .text-2 {
+.my-orders-with-user-photo .text-2, .my-orders__side-nav__btn .text-2 {
   direction: rtl;
   letter-spacing: 0;
   line-height: normal;
@@ -323,6 +322,17 @@
   position: relative;
   width: fit-content;
 }
+
+.my-orders__side-nav__btn.active .my-orders__side-nav__btn-text {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    180deg,
+    rgb(239, 100, 152) 0%,
+    rgb(84, 45, 145) 100%
+  );
+}
+
 
 .my-orders-with-user-photo .product-title {
   align-items: flex-start;
@@ -334,8 +344,11 @@
 
 .my-orders-with-user-photo .product-title .user-name {
   -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent;
-  background: var(--purple-and-pink, linear-gradient(270deg, #EF6498 0%, #542D91 100%));
+  -webkit-text-fill-color: transparent;
+  background: var(
+    --purple-and-pink,
+    linear-gradient(270deg, #ef6498 0%, #542d91 100%)
+  );
   font-family: var(--font-family-bahij_thesansarabic-bold);
   font-size: 24px;
   text-align: right;
@@ -345,7 +358,7 @@
 }
 
 .my-orders-with-user-photo .product-title .user-name-hi {
-  color: var(--text-primary, #312B43);
+  color: var(--text-primary, #312b43);
   text-align: right;
   font-family: var(--font-family-bahij_thesansarabic-bold);
   font-size: 24px;
@@ -1045,16 +1058,25 @@
 }
 
 .my-orders__order-status--inprogress {
-  background: var(--secondary-nebulas-blue, #0071CE);
+  background: var(--secondary-nebulas-blue, #0071ce);
 }
 .my-orders__order-status--shipped {
-  background: var(--secondary-russet-orange, #E07C00);
+  background: var(--secondary-russet-orange, #e07c00);
 }
 .my-orders__order-status--delivered {
-  background: var(--secondary-quetzal-green, #005C5D);
+  background: var(--secondary-quetzal-green, #005c5d);
 }
 .my-orders__order-status--cancelled {
-  background: var(--secondary-red-pear, #9F2842);
+  background: var(--secondary-red-pear, #9f2842);
+}
+.my-orders__order-status--return-ordered {
+  background: var(--secondary-martini-olive, #88674F);
+}
+.my-orders__order-status--return-inprogress {
+  background: var(--secondary-russet-orange, #E07C00);
+}
+.my-orders__order-status--return-done {
+  background: var(--secondary-quetzal-green, #005C5D);
 }
 
 .my-orders__order-payment-type {
@@ -1085,4 +1107,16 @@
   padding: 0;
   outline: none;
   cursor: pointer;
+}
+
+.my-orders__side-nav__btn-text {
+  color: var(--textprimary);
+  font-family: var(--font-family-bahij_thesansarabic-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
 }
