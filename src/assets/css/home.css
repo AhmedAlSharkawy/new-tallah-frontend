@@ -452,7 +452,6 @@
   flex-direction: column;
   gap: 24px;
   position: relative;
-  width: fit-content;
 }
 
 .home-logged-in .blog-card-1 {
@@ -503,7 +502,8 @@
   align-items: flex-start;
   display: flex;
   position: relative;
-  width: fit-content;
+  min-width: 100%;
+  width: auto;
 }
 
 .home-logged-in .rectangle-1 {
@@ -830,3 +830,19 @@
   width: 100%;
   position: relative;
 }
+
+.home-hero-container {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.home-hero-container .store-section {
+  width: 25%;
+}
+
+.home-hero-container .cards-section {
+  /* width: 75%; */
+  width: 100%;
+}
+
