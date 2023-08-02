@@ -1357,6 +1357,7 @@ button {
   height: auto;
   justify-content: flex-start;
   margin-top: 73px;
+  padding: 0;
   min-height: 492px;
   width: 100%;
 }

@@ -2020,13 +2020,6 @@
   width: 537px;
 }
 
-.footer {
-  background-color: transparent;
-  height: 492px;
-  min-width: 1360px;
-  position: relative;
-}
-
 .frame-container-2 {
   background-color: var(--wisp-pink);
   border-radius: 8px;
