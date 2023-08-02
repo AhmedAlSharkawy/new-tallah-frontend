@@ -221,7 +221,6 @@
 }
 
 .article .frame-1 {
-  align-items: flex-end;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -307,7 +306,7 @@
 }
 
 .article .frame-105 {
-  align-items: flex-end;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -456,7 +455,6 @@
 }
 
 .article .frame-1-2 {
-  align-items: flex-end;
   flex-direction: column;
   gap: 8px;
 }
@@ -696,14 +694,13 @@
 
 .article .frame-1-3 {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   gap: 16px;
   justify-content: flex-end;
 }
 
 .article .frame-1-4 {
   align-items: center;
-  justify-content: flex-end;
   gap: 8px;
 }
 

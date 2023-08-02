@@ -337,7 +337,7 @@
 .my-orders-with-user-photo .product-title {
   align-items: flex-start;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   position: relative;
   width: 100%;
 }
@@ -387,7 +387,7 @@
   border-radius: 8px;
   display: flex;
   height: 42px;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin-top: 16px;
   width: 100%;
   padding: 0;
@@ -470,7 +470,6 @@
 
 .my-orders-with-user-photo .my-orders__table-row-wrapper {
   align-items: center;
-  flex-direction: row-reverse;
   background-color: var(--wisp-pink);
   border-radius: 8px;
   display: flex;
@@ -782,7 +781,7 @@
 }
 
 .my-orders-with-user-photo .user-photo {
-  align-items: flex-end;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -864,7 +863,7 @@
 }
 
 .my-orders-with-user-photo .my-orders__side-nav__icon-container {
-  align-items: flex-end;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -1090,7 +1089,7 @@
 }
 
 .my-orders__order-cta-container {
-  justify-content: start;
+  justify-content: end;
   display: flex;
   gap: 8px;
 }

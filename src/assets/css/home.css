@@ -205,7 +205,6 @@
 }
 
 .home-logged-in .frame {
-  align-items: flex-end;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -470,7 +469,6 @@
 }
 
 .home-logged-in .frame-2 {
-  align-items: flex-end;
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -520,7 +518,6 @@
 }
 
 .home-logged-in .frame-103 {
-  align-items: flex-end;
   display: flex;
   flex-direction: column;
   gap: 16px;

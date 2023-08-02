@@ -813,7 +813,7 @@
 }
 
 .store-product .flex-col-4 {
-  align-items: flex-end;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
 }
@@ -1417,7 +1417,7 @@
 }
 
 .frame-1-1, .rating-card {
-  align-items: flex-end;
+  align-items: flex-start;
   background-color: var(--primarywhite100);
   border-radius: 8px;
   display: flex;
@@ -1448,7 +1448,7 @@
 }
 
 .product-slider__container {
-  align-items: flex-end;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -1457,7 +1457,7 @@
   padding: 0;
 }
 .frame-2-2 {
-  align-items: flex-end;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -1541,7 +1541,7 @@
 }
 
 .pannel-group {
-  align-items: flex-end;
+  align-items: flex-start;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -1634,7 +1634,7 @@
 }
 
 .frame-272 {
-  align-items: flex-end;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -1720,7 +1720,7 @@
 }
 
 .frame-235 {
-  align-items: flex-end;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -1731,7 +1731,7 @@
 }
 
 .frame-201 {
-  align-items: flex-end;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -1921,7 +1921,7 @@
 }
 
 .product-TABS {
-  align-items: flex-end;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -1950,7 +1950,7 @@
 }
 
 .product-tabs-content {
-  align-items: flex-end;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -2240,10 +2240,6 @@
 
 .tab-content, .tab-pane {
     width: 100%;
-}
-
-.product-color__box-container {
-  flex-direction: row-reverse;
 }
 
 .product-color__box {

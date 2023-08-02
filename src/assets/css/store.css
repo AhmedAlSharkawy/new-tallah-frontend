@@ -15578,7 +15578,7 @@
 
 .store .store-products-container {
   --z-index: 5;
-  align-items: flex-end;
+  align-items: flex-start;
   background-color: transparent;
   display: flex;
   flex-direction: column;
@@ -15648,11 +15648,13 @@
   -moz-appearance: none;
   text-indent: 1px;
   text-overflow: '';
+  text-align: start;
 }
 
 .custom-select-dropdown-container {
   display: flex;
   align-items: center;
+  position: relative;
 }
 .store .custom-select-dropdown-arrow-down {
   --z-index: 0;
@@ -15798,7 +15800,6 @@
 
 .store-products-cards-container-row {
   row-gap: 24px;
-  justify-content: end;
 }
 
 .store .frame-190-LXl1Tu {
@@ -19989,7 +19990,7 @@
   background-color: transparent;
   display: flex;
   height: auto;
-  justify-content: flex-end;
+  justify-content: flex-start;
   opacity: 1;
   position: relative;
   width: 100%;
@@ -21682,7 +21683,7 @@
   background: #FFF;
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: start;
   gap: 8px;
 }
 

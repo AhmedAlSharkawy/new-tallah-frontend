@@ -13,71 +13,110 @@
           <div class="my-orders-with-user-photo screen">
             <div class="my-orders-with__row col-12">
               <div class="row">
-              <div class="col-12 col-md-9 my-orders__table-container">
-                <div class="my-orders__header">
-                  <div class="frame-69">
-                    <div class="text-2 bahijthesansarabic-bold-gigas-12px">طلباتي</div>
-                    <img class="chevron-left" src="../assets/img/chevron-left@2x.png" alt="chevron-left" />
-                    <div class="text-2 bahijthesansarabic-bold-violet-red-12px">الرئيسية</div>
-                  </div>
-                  <div class="product-title"><h1 class="text-34">طلباتي</h1></div>
-                </div>
-                <div class="my-orders__table-header">
-                  <div class="navbar-link-text-45 my-orders__table-cell">حالة الطلب</div>
-                  <div class="navbar-link-text-43 my-orders__table-cell">وسيلة الدفع</div>
-                  <div class="navbar-link-text-44 my-orders__table-cell">المبلغ</div>
-                  <div class="navbar-link-text-46 my-orders__table-cell">العناصر</div>
-                  <div class="navbar-link-text-42 my-orders__table-cell">التاريخ</div>
-                  <div class="navbar-link-text-41 my-orders__table-cell">رقم الطلب</div>
-                </div>
-                <div class="my-orders__table">
-                  <!-- Follow this file to fill table row -->
-                  <!--(bake ../components/orders/my-orders-table-row.html)-->
-                  <!--(bake ../components/orders/my-orders-table-row-shipped.html)-->
-                  <!--(bake ../components/orders/my-orders-table-row-inprogress.html)-->
-                  <!--(bake ../components/orders/my-orders-table-row-delivered.html)-->
-                  <!--(bake ../components/orders/my-orders-table-row-cancelled.html)-->
-                </div>
-                <div class="frame-359">
-                  <div class="pager">
-                    <div class="pagination">
-                      <div class="frame-1">
-                        <select class="my-orders__num-rows-select" name="numberofrows">
-                          <option value="volvo">10</option>
-                          <option value="saab">15</option>
-                          <option value="mercedes">20</option>
-                          <option value="audi">25</option>
-                        </select>
-                        
+                <div class="col-12 col-md-3 flex-col-2 flex-col-3">
+                  <div class="user-photo">
+                    <div class="frame-325">
+                      <div class="group-127-1">
+                        <div class="group-130">
+                          <div class="overlap-group-3">
+                            <div class="rectangle-28"></div>
+                            <img
+                              class="rectangle-29"
+                              src="../assets/img/rectangle-29@2x.png"
+                              alt="Rectangle 29"
+                            />
+                            <img
+                              class="edit-2"
+                              src="../assets/img/edit-2@2x.png"
+                              alt="edit-2"
+                            />
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div class="text-37 bahijthesansarabic-bold-scarpa-flow-14px">عدد الطلبات في الصفحة</div>
+                    <div class="product-title">
+                      <p class="user-name__container">
+                        <span class="user-name-hi">مرحباً،</span>
+                        <span class="user-name">نيرة الشريف</span>
+                      </p>
+                    </div>
                   </div>
-                  <!--(bake ../components/pagination.html)-->
+                  <!--(bake ../components/orders/my-orders-side-nav.html)-->
                 </div>
-              </div>
-              <div class="col-12 col-md-3 flex-col-2 flex-col-3">
-                <div class="user-photo">
-                  <div class="frame-325">
-                    <div class="group-127-1">
-                      <div class="group-130">
-                        <div class="overlap-group-3">
-                          <div class="rectangle-28"></div>
-                          <img class="rectangle-29" src="../assets/img/rectangle-29@2x.png" alt="Rectangle 29" />
-                          <img class="edit-2" src="../assets/img/edit-2@2x.png" alt="edit-2" />
+                <div class="col-12 col-md-9 my-orders__table-container">
+                  <div class="my-orders__header">
+                    <div class="product-title">
+                      <h1 class="text-34">طلباتي</h1>
+                    </div>
+                    <div class="frame-69">
+                      <div class="text-2 bahijthesansarabic-bold-gigas-12px">
+                        طلباتي
+                      </div>
+                      <img
+                        class="chevron-left"
+                        src="../assets/img/chevron-left@2x.png"
+                        alt="chevron-left"
+                      />
+                      <div
+                        class="text-2 bahijthesansarabic-bold-violet-red-12px"
+                      >
+                        الرئيسية
+                      </div>
+                    </div>
+                  </div>
+                  <div class="my-orders__table-header">
+                    <div class="navbar-link-text-45 my-orders__table-cell">
+                      حالة الطلب
+                    </div>
+                    <div class="navbar-link-text-43 my-orders__table-cell">
+                      وسيلة الدفع
+                    </div>
+                    <div class="navbar-link-text-44 my-orders__table-cell">
+                      المبلغ
+                    </div>
+                    <div class="navbar-link-text-46 my-orders__table-cell">
+                      العناصر
+                    </div>
+                    <div class="navbar-link-text-42 my-orders__table-cell">
+                      التاريخ
+                    </div>
+                    <div class="navbar-link-text-41 my-orders__table-cell">
+                      رقم الطلب
+                    </div>
+                  </div>
+                  <div class="my-orders__table">
+                    <!-- Follow this file to fill table row -->
+                    <!--(bake ../components/orders/my-orders-table-row.html)-->
+                    <!--(bake ../components/orders/my-orders-table-row-shipped.html)-->
+                    <!--(bake ../components/orders/my-orders-table-row-inprogress.html)-->
+                    <!--(bake ../components/orders/my-orders-table-row-delivered.html)-->
+                    <!--(bake ../components/orders/my-orders-table-row-cancelled.html)-->
+                  </div>
+                  <div class="frame-359">
+                    <!--(bake ../components/pagination.html)-->
+                    <div class="pager">
+                      <div
+                        class="text-37 bahijthesansarabic-bold-scarpa-flow-14px"
+                      >
+                        عدد الطلبات في الصفحة
+                      </div>
+                      <div class="pagination">
+                        <div class="frame-1">
+                          <select
+                            class="my-orders__num-rows-select"
+                            name="numberofrows"
+                          >
+                            <option value="volvo">10</option>
+                            <option value="saab">15</option>
+                            <option value="mercedes">20</option>
+                            <option value="audi">25</option>
+                          </select>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="product-title">
-                    <p class="user-name__container">
-                      <span class="user-name-hi">مرحباً،</span> <span class="user-name">نيرة الشريف</span>
-                    </p>
-                  </div>
                 </div>
-                <!--(bake ../components/orders/my-orders-side-nav.html)-->
               </div>
-            </div>
             </div>
             <!--(bake ../components/footer.html)-->
           </div>

@@ -190,7 +190,7 @@
 
 .blog-category .frame-container-2 {
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   align-self: flex-end;
   justify-content: flex-start;
   display: flex;
@@ -478,7 +478,7 @@
 }
 
 .blog-category .frame-105 {
-  align-items: flex-end;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -622,7 +622,7 @@
 }
 
 .blog-category .frame-382 {
-  align-items: flex-end;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -793,7 +793,7 @@
 }
 
 .blog-category .frame-1-3 {
-  align-items: flex-end;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   position: relative;
